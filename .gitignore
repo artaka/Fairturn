@@ -33,3 +33,4 @@
 
 #debug files
 *.pdb
+*.db
