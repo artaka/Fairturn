@@ -1,12 +1,16 @@
 #include <iostream>
+#include "ranging.h"
 
 int main() {
-	std::cout << "Hello, good :) team!";
+	//testing
+	map <string, vector <int>> Members = {
+	{"Чел1",{5,5,0}},
+	{"Чел2",{5,10,0}},
+	{"Чел3",{1,10,10}}
+	};
+
+	vector<string> surnames = getSurnames(Members);
 	
-	std::cout << "Hello. делаю измение в своеё ветке и мёржу";
-	for (int i = 0; i < 2; i++)
-	{
-		std::cout << "?\n";
-	}
-	return 0;
+	map <string, vector <int>> res = getSum(Members, surnames);
+	cout << "End";
 }
