@@ -1,0 +1,85 @@
+#include <iostream>
+#include <fstream>
+#include <string>
+#include <thread> // Для задержки
+#include <chrono> // Для анимации
+
+using namespace std;
+
+// Приветственная анимация
+void welcomeAnimation() {
+    cout << "---------------------------" << endl;
+    cout << "|   Добро пожаловать!     |" << endl;
+    cout << "---------------------------" << endl;
+    this_thread::sleep_for(chrono::milliseconds(500));
+    for (int i = 0; i < 3; i++) {
+        cout << ".";
+        this_thread::sleep_for(chrono::milliseconds(500));
+    }
+    cout << endl << "Загрузка завершена!" << endl;
+}
+
+// Главное меню
+void mainMenu() {
+    cout << "\n=== Главное меню ===" << endl;
+    cout << "1. Ввести данные вручную" << endl;
+    cout << "2. Загрузить данные из файла" << endl;
+    cout << "3. Выйти из программы" << endl;
+    cout << "Выберите действие: ";
+}
+
+// Обработка ввода данных вручную
+void manualInput() {
+    string data;
+    cout << "Введите данные вручную: ";
+    cin.ignore();
+    getline(cin, data);
+    cout << "Вы ввели: " << data << endl;
+}
+
+// Парсер данных из файла
+void fileParser() {
+    string filename;
+    cout << "Введите имя файла: ";
+    cin >> filename;
+
+    ifstream file(filename);
+    if (file.is_open()) {
+        string line;
+        cout << "Данные из файла:\n";
+        while (getline(file, line)) {
+            cout << line << endl;
+        }
+        file.close();
+    } else {
+        cout << "Ошибка: файл не найден!" << endl;
+    }
+}
+
+// Основная программа
+int main() {
+    welcomeAnimation(); // Приветственная анимация
+
+    while (true) {
+        mainMenu();
+        int choice;
+        cin >> choice;
+
+        switch (choice) {
+            case 1:
+                manualInput();
+                break;
+            case 2:
+                fileParser();
+                break;
+            case 3:
+                cout << "Выход из программы. До свидания!" << endl;
+                return 0;
+            default:
+                cout << "Ошибка: неверный ввод. Попробуйте снова." << endl;
+        }
+    }
+
+    return 0;
+}
+
