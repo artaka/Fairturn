@@ -19,6 +19,7 @@ echo.
 echo How would you like to install Python?
 echo 1. Manual installation (h)
 echo 2. Automatic installation of the exe file on the C disk in the current directory (d)
+echo Be sure to check the Add Python (version) to PATH box when installing the exe file.
 set /p choice=Enter your choice (h/d): 
 
 if /i "%choice%"=="h" (
