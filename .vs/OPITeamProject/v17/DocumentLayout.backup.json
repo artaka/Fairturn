@@ -1,9 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\prog\\\u041E\u041F\u0418\\labs\\OPITeamProject\\",
+  "WorkspaceRootPath": "C:\\\u0423\u043D\u0438\u043A\\OPI\\OPI_PROJECT\\OPITeam_Project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9DB9DE87-5282-4606-BFD5-1709A03BE779}|OPITeamProject\\OPITeamProject.vcxproj|D:\\prog\\\u041E\u041F\u0418\\labs\\OPITeamProject\\OPITeamProject\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\\u0423\u043D\u0438\u043A\\OPI\\OPI_PROJECT\\OPITeam_Project\\OPITeamProject\\Sorting.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:OPITeamProject\\Sorting.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DB9DE87-5282-4606-BFD5-1709A03BE779}|OPITeamProject\\OPITeamProject.vcxproj|C:\\\u0423\u043D\u0438\u043A\\OPI\\OPI_PROJECT\\OPITeam_Project\\OPITeamProject\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{9DB9DE87-5282-4606-BFD5-1709A03BE779}|OPITeamProject\\OPITeamProject.vcxproj|solutionrelative:OPITeamProject\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -14,24 +18,29 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Sorting.cpp",
+              "DocumentMoniker": "C:\\\u0423\u043D\u0438\u043A\\OPI\\OPI_PROJECT\\OPITeam_Project\\OPITeamProject\\Sorting.cpp",
+              "RelativeDocumentMoniker": "OPITeamProject\\Sorting.cpp",
+              "ToolTip": "C:\\\u0423\u043D\u0438\u043A\\OPI\\OPI_PROJECT\\OPITeam_Project\\OPITeamProject\\Sorting.cpp",
+              "RelativeToolTip": "OPITeamProject\\Sorting.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-28T08:21:50.371Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "main.cpp",
-              "DocumentMoniker": "D:\\prog\\\u041E\u041F\u0418\\labs\\OPITeamProject\\OPITeamProject\\main.cpp",
+              "DocumentMoniker": "C:\\\u0423\u043D\u0438\u043A\\OPI\\OPI_PROJECT\\OPITeam_Project\\OPITeamProject\\main.cpp",
               "RelativeDocumentMoniker": "OPITeamProject\\main.cpp",
-              "ToolTip": "D:\\prog\\\u041E\u041F\u0418\\labs\\OPITeamProject\\OPITeamProject\\main.cpp*",
-              "RelativeToolTip": "OPITeamProject\\main.cpp*",
+              "ToolTip": "C:\\\u0423\u043D\u0438\u043A\\OPI\\OPI_PROJECT\\OPITeam_Project\\OPITeamProject\\main.cpp",
+              "RelativeToolTip": "OPITeamProject\\main.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-11-25T19:13:53.124Z",

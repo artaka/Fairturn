@@ -5,4 +5,4 @@
 #include <algorithm>
 #include <string>
 using namespace std;
-void printSortedData(const map<string, vector<int>>& sortedMembers);
+void printSortedData(vector<pair<string, vector<int>>>& sortedMembers);
