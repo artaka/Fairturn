@@ -8,26 +8,27 @@
 
 using namespace std;
 
-// Функция для рисования рамки вокруг текста
-void drawBorderWithText(int width, int height, const vector<string>& lines) {
-    int textStartRow = (height - lines.size()) / 2;  // Стартовая строка для текста
-    int textStartCol = (width - 2) / 2;             // Центрирование текста по горизонтали
 
-    // Верхняя граница
+// Function to draw a frame around text
+void drawBorderWithText(int width, int height, const vector<string>& lines) {
+    int textStartRow = (height - lines.size()) / 2;// Start line for text
+    int textStartCol = (width - 2) / 2;             // Center text horizontally
+
+    // Upper limit
     for (int i = 0; i < width; i++) cout << "*";
     cout << endl;
 
-    // Пустые строки с боковыми границами
+    // Empty lines with side borders
     for (int i = 0; i < textStartRow; i++) {
         cout << "*";
         for (int j = 0; j < width - 2; j++) cout << " ";
         cout << "*" << endl;
     }
 
-    // Вывод текста
+    // Output text
     for (const auto& line : lines) {
         cout << "*";
-        int paddingLeft = (width - 2 - line.size()) / 2;  // Левый отступ
+        int paddingLeft = (width - 2 - line.size()) / 2;// Left indent
         int paddingRight = width - 2 - line.size() - paddingLeft;
 
         for (int j = 0; j < paddingLeft; j++) cout << " ";
@@ -36,19 +37,20 @@ void drawBorderWithText(int width, int height, const vector<string>& lines) {
         cout << "*" << endl;
     }
 
-    // Пустые строки после текста
+    // Empty lines after text
     for (int i = 0; i < height - textStartRow - lines.size() - 1; i++) {
         cout << "*";
         for (int j = 0; j < width - 2; j++) cout << " ";
         cout << "*" << endl;
     }
 
-    // Нижняя граница
+
+    // Lower bound
     for (int i = 0; i < width; i++) cout << "*";
     cout << endl;
 }
 
-// Приветственная анимация
+// Welcome animation
 void welcomeAnimation() {
     vector<string> lines = {
         "---------------------------",
@@ -67,7 +69,8 @@ void welcomeAnimation() {
 }
 
 
-// Главное меню
+
+// Main menu
 void mainMenu() {
     vector<string> menu = {
          "====== Главное меню =======",
@@ -80,7 +83,8 @@ void mainMenu() {
    
 }
 
-// Обработка ввода данных вручную
+
+// Handle manual input
 void manualInput() {
     string data;
     vector<string> prompt = { "Введите данные вручную:" };
@@ -97,7 +101,8 @@ void manualInput() {
     system("cls");
 }
 
-// Парсер данных из файла
+
+// Parser data from file
 void fileParser() {
     vector<string> prompt = { "Введите имя файла:" };
     drawBorderWithText(50, 10, prompt);
@@ -135,14 +140,14 @@ void fileParser() {
     }
 }
 
-// Функция для изменения заголовка окна
+// Function to change the window title
 void setConsoleTitle(const string& title) {
     setlocale(LC_CTYPE, "Russian");
     wstring wideTitle(title.begin(), title.end());
     SetConsoleTitleW(wideTitle.c_str());
 }
 
-// Функция для установки размера консоли
+// Function to set the console size
 void setConsoleSize(int width, int height) {
     HANDLE hConsole = GetStdHandle(STD_OUTPUT_HANDLE);
     SMALL_RECT rect = { 0, 0, width - 1, height - 1 };
@@ -158,18 +163,18 @@ int main() {
     HANDLE out_handle = GetStdHandle(STD_OUTPUT_HANDLE);
   
 
-    welcomeAnimation();  // Анимация приветствия
+    welcomeAnimation(); // Welcome animation
 
     int choice;
     while (true) {
-        mainMenu();  // Главное меню
+        mainMenu();  // Main menu
         cin >> choice;
 
         if (choice == 1) {
-            manualInput();  // Ввод данных вручную
+            manualInput();  // Enter data manually
         }
         else if (choice == 2) {
-            fileParser();  // Парсер данных из файла
+            fileParser();  // Parser data from file
         }
         else if (choice == 3) {
             cout << "Выход из программы";
@@ -179,11 +184,11 @@ int main() {
                 this_thread::sleep_for(chrono::milliseconds(500));
             }
             cout << endl;
-            break;  // Выход из программы
+            break;  // Exit the program
         }
         else {
             vector<string> error = { "Некорректный выбор. Попробуйте снова!" };
-            drawBorderWithText(50, 10, error);  // Ошибка при выборе
+            drawBorderWithText(50, 10, error);  // Error during selection
         }
     }
     std::cin.get();
