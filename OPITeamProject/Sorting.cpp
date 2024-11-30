@@ -7,33 +7,33 @@
 
 using namespace std;
 
-// Функция для сортировки и вывода данных
+// Function for sorting and displaying data
 void printSortedData(vector<pair<string, vector<int>>>& sortedMembers) {
     setlocale(LC_CTYPE, "Russian");
 
-    // Сортируем по фамилии (по первому элементу пары)
-    sort(sortedMembers.begin(), sortedMembers.end(), 
+    // Sort by surname (first element of the pair)
+    sort(sortedMembers.begin(), sortedMembers.end(),
         [](const pair<string, vector<int>>& a, const pair<string, vector<int>>& b) {
-            return a.first < b.first;  // Сортируем по имени (фамилии)
+            return a.first < b.first;  // Sort by surname
         });
 
-    // Номер строки для вывода
+    // Line number for displaying
     int lineNumber = 1;
 
-    // Выводим отсортированные данные с номером строки
+    // Display the sorted data with line numbers
     for (const auto& entry : sortedMembers) {
         const string& surname = entry.first;
         const vector<int>& data = entry.second;
 
-        int labsPassed = data[0];       // Количество сданных лабораторных
-        int labsToDo = data[1];         // Количество лабораторных, которые предстоит сдать
-        int attendedValue = data[2];    // 0 - не был, 10 - был
-        int totalScore = data[3];       // Общий балл
+        int labsPassed = data[0];       // Number of labs passed
+        int labsToDo = data[1];         // Number of labs yet to be completed
+        int attendedValue = data[2];    // 0 - not attended, 10 - attended
+        int totalScore = data[3];       // Total score
 
-        // Определяем, был ли на занятии
-        string attended = (attendedValue == 10) ? "Да" : "Нет";
+        // Determine if attended the session
+        string attended = (attendedValue == 10) ? "Yes" : "No";
 
-        // Выводим информацию с номером строки
+        // Display the information with line number
         cout << lineNumber++ << ". " << surname << " "
             << labsPassed << " "
             << labsToDo << " "
