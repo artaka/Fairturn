@@ -15,8 +15,8 @@ map <string, vector<int>> dataEntry() {
 	char surname[15];
 	map <string, vector<int>> membersListWithNumbers;
 
-	cout << "¬ведите количество участников: "; cin >> num;
-	cout << "¬ведите поочередно данные каждого участника в виде: ‘амили€,кол-во сданных лаб,номер лабы которую сдаете,подходил ли сдавать на прошлом зан€ти.\n";
+	cout << "Enter the number of participants:"; cin >> num;
+	cout << "Enter the details of each participant one by one in the following format: <Last name> <number of labs taken> <number of the lab you are taking> <whether you were eligible to take the test at the previous lesson(yes - 10, no - 0)>.\n";
 	for (int i = 0; i < num; i++) {
 		vector<int> numbers(3);
 		cout << i + 1 << ". "; scanf("%10s %d %d %d", surname, &number1, &number2, &number3);

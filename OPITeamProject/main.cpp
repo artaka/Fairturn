@@ -1,9 +1,7 @@
 #include "input.h"
-#include "inputFromFile.h"
-
 
 int main() {
-	//map <string, vector<int>> aboba = dataEntry();
+	map <string, vector<int>> var = dataEntry();
 	inputFromFile();
 	
 	return 0;

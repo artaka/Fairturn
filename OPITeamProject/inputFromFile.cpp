@@ -1,5 +1,5 @@
 #include <iostream>
-#include "inputFromFile.h"
+#include "input.h"
 #include <fstream>
 #include <string>
 #include <vector>
@@ -19,10 +19,10 @@ map <string, vector<int>> inputFromFile() {
 	ifstream in;
 	in.open(path);
 	if (!in.is_open()) {
-		cout << "Ошибка открытия файла!" << endl;
+		cout << "Error opening file!" << endl;
 	}
 	else {
-		cout << "Файл открыт!" << endl;
+		cout << "File opened, writing to map was successful!" << endl;
 		string str;
 		while (getline(in, str)) {
 			if (str.empty()) continue;
