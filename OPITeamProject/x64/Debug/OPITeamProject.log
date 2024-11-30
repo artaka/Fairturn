@@ -1,6 +1,4 @@
 ﻿  inputFromFile.cpp
 D:\project\OPITeam_Project\OPITeamProject\inputFromFile.cpp(29,29): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
 D:\project\OPITeam_Project\OPITeamProject\inputFromFile.cpp(33,30): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
-  main.cpp
-  Создание кода...
   OPITeamProject.vcxproj -> D:\project\OPITeam_Project\x64\Debug\OPITeamProject.exe
