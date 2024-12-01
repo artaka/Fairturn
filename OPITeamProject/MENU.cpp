@@ -11,60 +11,85 @@ using namespace std;
 
 // Function to draw a frame around text
 void drawBorderWithText(int width, int height, const vector<string>& lines) {
-    int textStartRow = (height - lines.size()) / 2;// Start line for text
-    int textStartCol = (width - 2) / 2;             // Center text horizontally
-
-    // Upper limit
-    for (int i = 0; i < width; i++) cout << "*";
+    // Top border with animation
+    for (int i = 0; i < width; i++) {
+        cout << "*";
+        this_thread::sleep_for(chrono::milliseconds(10));  // Delay
+    }
     cout << endl;
 
-    // Empty lines with side borders
-    for (int i = 0; i < textStartRow; i++) {
+    // Blank lines before text
+    for (int i = 0; i < (height - lines.size()) / 2; i++) {
         cout << "*";
         for (int j = 0; j < width - 2; j++) cout << " ";
         cout << "*" << endl;
+        this_thread::sleep_for(chrono::milliseconds(20));  // Delay
     }
 
-    // Output text
+    // Outputting text with animation
     for (const auto& line : lines) {
         cout << "*";
-        int paddingLeft = (width - 2 - line.size()) / 2;// Left indent
+        int paddingLeft = (width - 2 - line.size()) / 2;
         int paddingRight = width - 2 - line.size() - paddingLeft;
 
         for (int j = 0; j < paddingLeft; j++) cout << " ";
-        cout << line;
+
+        for (char c : line) {
+            cout << c << flush;
+            this_thread::sleep_for(chrono::milliseconds(20));  // Per-character delay
+        }
+
         for (int j = 0; j < paddingRight; j++) cout << " ";
         cout << "*" << endl;
+        this_thread::sleep_for(chrono::milliseconds(20));  //Delay between lines of text
     }
 
-    // Empty lines after text
-    for (int i = 0; i < height - textStartRow - lines.size() - 1; i++) {
+    // Blank lines after text
+    for (int i = 0; i < (height - lines.size() - 1) / 2; i++) {
         cout << "*";
         for (int j = 0; j < width - 2; j++) cout << " ";
         cout << "*" << endl;
+        this_thread::sleep_for(chrono::milliseconds(20));  // Delay
     }
 
-
-    // Lower bound
-    for (int i = 0; i < width; i++) cout << "*";
+    // Bottom border with animation
+    for (int i = 0; i < width; i++) {
+        cout << "*";
+        this_thread::sleep_for(chrono::milliseconds(10));  // Delay
+    }
     cout << endl;
 }
 
 // Welcome animation
-void welcomeAnimation() {
-    vector<string> lines = {
-        "---------------------------",
-        "|         Welcome!        |",
-        "---------------------------"
+void   welcomeAnimation() {
+    // Array of strings to display as animated text
+    string lines[] = {
+        "  ______            __             __                                   ",
+        " /      \\          |  \\           |  \\                                  ",
+        "|  $$$$$$\\ ______   \\$$  ______  _| $$$_    __    __   ______   _______  ",
+        "| $$_  \\$$|      \\ |  \\ /      \\|   $$ \\  |  \\  |  \\ /      \\ |       \\ ",
+        "| $$ \\     \\$$$$$$\\| $$|  $$$$$$\\\\$$$$$$  | $$  | $$|  $$$$$$\\| $$$$$$$\\",
+        "| $$$$    /      $$| $$| $$   \\$$ | $$ __ | $$  | $$| $$   \\$$| $$  | $$",
+        "| $$     |  $$$$$$$| $$| $$       | $$|  \\| $$__/ $$| $$      | $$  | $$",
+        "| $$      \\$$    $$| $$| $$        \\$$  $$ \\$$    $$| $$      | $$  | $$",
+        " \\$$       \\$$$$$$$ \\$$ \\$$         \\$$$$   \\$$$$$$  \\$$       \\$$   \\$$"
     };
-    drawBorderWithText(50, 10, lines);
-
-    this_thread::sleep_for(chrono::milliseconds(500));
-    for (int i = 0; i < 3; i++) {
-        cout << ".";
-        this_thread::sleep_for(chrono::milliseconds(500));
+    // Loop through each line of text
+    for (const string& line : lines) {
+        // Print each character in the line with a small delay
+        for (char c : line) {
+            cout << c << flush;  // Immediately output the character to the console
+            Sleep(0.99);            // Delay between characters (in milliseconds)
+        }
+        cout << endl;
+        Sleep(250);  // Delay between lines
     }
-    cout << endl << "Download complete!" << endl;
+    Sleep(800);  // Pause before clearing the screen
+    // Clear the screen with a fade-out effect
+    for (int i = 0; i < 5; ++i) {
+        system("cls");  // Clear the console
+        Sleep(50);
+    }
     system("cls");
 }
 
@@ -77,10 +102,11 @@ void mainMenu() {
         "1. Enter data manually"   ,
         "2. Load data from file"   ,
         "3. Exit the program   "   ,
-            "Select action:"
+
+
     };
     drawBorderWithText(50, 12, menu);
-   
+
 }
 
 
@@ -157,18 +183,20 @@ void setConsoleSize(int width, int height) {
 }
 
 int main() {
-    setConsoleSize(70 , 50);
+    setConsoleSize(70, 50);
     setlocale(LC_CTYPE, "Russian");
     setConsoleTitle("FAIRTURN");
     HANDLE out_handle = GetStdHandle(STD_OUTPUT_HANDLE);
-  
+
 
     welcomeAnimation(); // Welcome animation
 
     int choice;
     while (true) {
         mainMenu();  // Main menu
+        cout << "Select action: ";
         cin >> choice;
+        system("cls");
 
         if (choice == 1) {
             manualInput();  // Enter data manually
@@ -177,11 +205,14 @@ int main() {
             fileParser();  // Parser data from file
         }
         else if (choice == 3) {
-            cout << "Exit the program";
-            this_thread::sleep_for(chrono::milliseconds(500));
-            for (int i = 0; i < 3; i++) {
-                cout << ".";
-                this_thread::sleep_for(chrono::milliseconds(500));
+
+
+            string message = "Exit the program...";
+
+
+            for (char c : message) {
+                cout << c << flush;
+                this_thread::sleep_for(chrono::milliseconds(100));  // Pause between characters
             }
             cout << endl;
             break;  // Exit the program
@@ -189,6 +220,13 @@ int main() {
         else {
             vector<string> error = { "Incorrect choice. Try again!" };
             drawBorderWithText(50, 10, error);  // Error during selection
+            this_thread::sleep_for(chrono::milliseconds(500));
+            for (int i = 0; i < 3; i++) {
+                cout << ".";
+                this_thread::sleep_for(chrono::milliseconds(500));
+            }
+            cout << endl << "Download complete!" << endl;
+            system("cls");
         }
     }
     std::cin.get();
