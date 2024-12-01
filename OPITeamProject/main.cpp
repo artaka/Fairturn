@@ -1,4 +1,5 @@
 #include "parser.h"
+#include "logo.h"
 int main() {
-    parserIN();
+    startWelcomeAnimation();
 }
