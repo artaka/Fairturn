@@ -1,7 +1,7 @@
 @echo off
 setlocal enabledelayedexpansion
 
-:: Проверка наличия Python в PATH
+:: Check for Python in PATH
 echo Searching for Python in PATH...
 set python_found=0
 
@@ -18,7 +18,7 @@ echo Python is not found in PATH.
 echo.
 echo How would you like to install Python?
 echo 1. Manual installation (h)
-echo 2. Automatic installation of the exe file on the C disk in the current directory (d)
+echo 2. Automatic installation of the exe file in the C disk in the current directory (d)
 echo Be sure to check the Add Python (version) to PATH box when installing the exe file.
 set /p choice=Enter your choice (h/d): 
 
@@ -39,7 +39,7 @@ if /i "%choice%"=="h" (
     echo Installer downloaded.
     echo Starting Python installation...
 
-    :: Автоматически запускает скачанный файл
+    :: Automatically launches the downloaded file
     start python-installer.exe
 
     echo After completing the Python installation, press any key to continue...
@@ -48,7 +48,7 @@ if /i "%choice%"=="h" (
     echo Please restart your computer and rerun the program to ensure the PATH is updated.
     pause
 
-    :: Завершаем программу, предлагая перезапустить компьютер
+    :: Finish the program, offering to restart the computer
     exit /b
 ) else (
     echo Invalid choice. Exiting the program.
@@ -57,7 +57,7 @@ if /i "%choice%"=="h" (
 )
 
 :check_python_again
-:: Повторная проверка Python в PATH
+:: Rechecking Python installation in PATH
 echo Rechecking Python installation in PATH...
 set python_found=0
 
@@ -76,7 +76,7 @@ if %python_found%==0 (
 )
 
 :python_found
-:: Проверяет, действительно ли Python работает
+:: Check if Python is actually working
 "%python_path%" --version > nul 2>&1
 if %errorlevel% neq 0 (
     echo Python placeholder detected or not functioning.
@@ -86,11 +86,11 @@ if %errorlevel% neq 0 (
 echo Python is correctly installed at "%python_path%".
 echo Proceeding to library check...
 
-:: Обновляем pip
+:: Update pip
 echo Updating pip...
 "%python_path%" -m pip install --upgrade pip
 
-:: Обновляем все библиотеки
+:: Update all libraries
 echo Updating required libraries...
 for %%L in (google-api-python-client google-auth google-auth-oauthlib) do (
     echo Updating library: %%L

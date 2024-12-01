@@ -24,9 +24,15 @@
     <ClCompile Include="parserOUT.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
+    <ClCompile Include="logo.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="parser.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="logo.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
   </ItemGroup>

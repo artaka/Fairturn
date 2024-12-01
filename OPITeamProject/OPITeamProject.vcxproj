@@ -127,11 +127,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="logo.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="parserIN.cpp" />
     <ClCompile Include="parserOUT.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="logo.h" />
     <ClInclude Include="parser.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
