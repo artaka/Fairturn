@@ -54,7 +54,7 @@ void drawBorderWithText(int width, int height, const vector<string>& lines) {
 void welcomeAnimation() {
     vector<string> lines = {
         "---------------------------",
-        "|    Добро пожаловать!     |",
+        "|         Welcome!        |",
         "---------------------------"
     };
     drawBorderWithText(50, 10, lines);
@@ -64,7 +64,7 @@ void welcomeAnimation() {
         cout << ".";
         this_thread::sleep_for(chrono::milliseconds(500));
     }
-    cout << endl << "Загрузка завершена!" << endl;
+    cout << endl << "Download complete!" << endl;
     system("cls");
 }
 
@@ -73,11 +73,11 @@ void welcomeAnimation() {
 // Main menu
 void mainMenu() {
     vector<string> menu = {
-         "====== Главное меню =======",
-        "1. Ввести данные вручную",
-        "2. Загрузить данные из файла",
-        "3. Выйти из программы",
-        "Выберите действие: "
+         "====== Main menu =======",
+        "1. Enter data manually"   ,
+        "2. Load data from file"   ,
+        "3. Exit the program   "   ,
+            "Select action:"
     };
     drawBorderWithText(50, 12, menu);
    
@@ -87,24 +87,24 @@ void mainMenu() {
 // Handle manual input
 void manualInput() {
     string data;
-    vector<string> prompt = { "Введите данные вручную:" };
+    vector<string> prompt = { "Enter data manually:" };
     drawBorderWithText(50, 10, prompt);
     cin.ignore();
     getline(cin, data);
-    cout << "Вы ввели: " << data << endl;
+    cout << "You entered: " << data << endl;
     this_thread::sleep_for(chrono::milliseconds(500));
     for (int i = 0; i < 3; i++) {
         cout << ".";
         this_thread::sleep_for(chrono::milliseconds(500));
     }
-    cout << endl << "Загрузка завершена!" << endl;
+    cout << endl << "Download complete!" << endl;
     system("cls");
 }
 
 
 // Parser data from file
 void fileParser() {
-    vector<string> prompt = { "Введите имя файла:" };
+    vector<string> prompt = { "Enter file id:" };
     drawBorderWithText(50, 10, prompt);
 
     string filename;
@@ -124,18 +124,18 @@ void fileParser() {
             cout << ".";
             this_thread::sleep_for(chrono::milliseconds(500));
         }
-        cout << endl << "Загрузка завершена!" << endl;
+        cout << endl << "Download complete!" << endl;
         system("cls");
     }
     else {
-        vector<string> error = { "Ошибка: файл не найден!" };
+        vector<string> error = { "Error: file not found" };
         drawBorderWithText(50, 10, error);
         this_thread::sleep_for(chrono::milliseconds(500));
         for (int i = 0; i < 3; i++) {
             cout << ".";
             this_thread::sleep_for(chrono::milliseconds(500));
         }
-        cout << endl << "Загрузка завершена!" << endl;
+        cout << endl << "Download complete!" << endl;
         system("cls");
     }
 }
@@ -159,7 +159,7 @@ void setConsoleSize(int width, int height) {
 int main() {
     setConsoleSize(70 , 50);
     setlocale(LC_CTYPE, "Russian");
-    setConsoleTitle("Project C++");
+    setConsoleTitle("FAIRTURN");
     HANDLE out_handle = GetStdHandle(STD_OUTPUT_HANDLE);
   
 
@@ -177,7 +177,7 @@ int main() {
             fileParser();  // Parser data from file
         }
         else if (choice == 3) {
-            cout << "Выход из программы";
+            cout << "Exit the program";
             this_thread::sleep_for(chrono::milliseconds(500));
             for (int i = 0; i < 3; i++) {
                 cout << ".";
@@ -187,7 +187,7 @@ int main() {
             break;  // Exit the program
         }
         else {
-            vector<string> error = { "Некорректный выбор. Попробуйте снова!" };
+            vector<string> error = { "Incorrect choice. Try again!" };
             drawBorderWithText(50, 10, error);  // Error during selection
         }
     }
