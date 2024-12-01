@@ -112,12 +112,22 @@ void mainMenu() {
 
 // Handle manual input
 void manualInput() {
+
     string data;
     vector<string> prompt = { "Enter data manually:" };
     drawBorderWithText(50, 10, prompt);
     cin.ignore();
+
     getline(cin, data);
-    cout << "You entered: " << data << endl;
+    system("cls");
+    string message = "You entered: " + data;
+
+
+    for (char c : message) {
+        cout << c << flush;
+        this_thread::sleep_for(chrono::milliseconds(20));  // Pause between characters
+    }
+    cout << endl;
     this_thread::sleep_for(chrono::milliseconds(500));
     for (int i = 0; i < 3; i++) {
         cout << ".";
@@ -135,7 +145,7 @@ void fileParser() {
 
     string filename;
     cin >> filename;
-
+    system("cls");
     ifstream file(filename);
     if (file.is_open()) {
         vector<string> fileLines;
@@ -194,7 +204,13 @@ int main() {
     int choice;
     while (true) {
         mainMenu();  // Main menu
-        cout << "Select action: ";
+        string message = "Select action:";
+
+
+        for (char c : message) {
+            cout << c << flush;
+            this_thread::sleep_for(chrono::milliseconds(20));  // Pause between characters
+        }
         cin >> choice;
         system("cls");
 
