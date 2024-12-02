@@ -2,7 +2,7 @@
 #include <string>
 #include <iostream>
 #include <vector>
-#include <stdio.h>
+#include <fstream>
 #include <Windows.h>
 using namespace std;
-map <string, vector<int>> dataEntry();
+map <string, vector<int>> inputFromFile();

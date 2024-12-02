@@ -1,5 +1,5 @@
 #include <iostream>
-#include "input.h"
+#include "inputFromFile.h"
 #include <fstream>
 #include <string>
 #include <vector>
