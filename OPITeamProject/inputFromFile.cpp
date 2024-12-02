@@ -15,7 +15,11 @@ map <string, vector<int>> inputFromFile() {
 	string sym = ";", surname;
 	vector<int> data(3);
 	map <string, vector<int>> memberList;
-	string path = "output.csv";
+	string path;
+	cout << "Enter the file name where the data will be written in the format 'name.csv' (Press n to select the default file 'output.csv'): "; cin >> path;
+	if (path == "n") {
+		path = "output.csv";
+	}
 	ifstream in;
 	in.open(path);
 	if (!in.is_open()) {
