@@ -3,8 +3,6 @@
 #include <string>
 #include <fstream>
 #include <vector>
-#include <thread>
-#include <chrono>
 
 using namespace std;
 
@@ -14,7 +12,7 @@ void drawBorderWithText(int width, int height, const vector<string>& lines) {
     // Top border with animation
     for (int i = 0; i < width; i++) {
         cout << "*";
-        this_thread::sleep_for(chrono::milliseconds(10));  // Delay
+        Sleep(20);  // Delay
     }
     cout << endl;
 
@@ -23,7 +21,7 @@ void drawBorderWithText(int width, int height, const vector<string>& lines) {
         cout << "*";
         for (int j = 0; j < width - 2; j++) cout << " ";
         cout << "*" << endl;
-        this_thread::sleep_for(chrono::milliseconds(20));  // Delay
+        Sleep(20);  // Delay
     }
 
     // Outputting text with animation
@@ -36,12 +34,12 @@ void drawBorderWithText(int width, int height, const vector<string>& lines) {
 
         for (char c : line) {
             cout << c << flush;
-            this_thread::sleep_for(chrono::milliseconds(20));  // Per-character delay
+            Sleep(20);  // Per-character delay
         }
 
         for (int j = 0; j < paddingRight; j++) cout << " ";
         cout << "*" << endl;
-        this_thread::sleep_for(chrono::milliseconds(20));  //Delay between lines of text
+        Sleep(20);  //Delay between lines of text
     }
 
     // Blank lines after text
@@ -49,13 +47,13 @@ void drawBorderWithText(int width, int height, const vector<string>& lines) {
         cout << "*";
         for (int j = 0; j < width - 2; j++) cout << " ";
         cout << "*" << endl;
-        this_thread::sleep_for(chrono::milliseconds(20));  // Delay
+        Sleep(20);  // Delay
     }
 
     // Bottom border with animation
     for (int i = 0; i < width; i++) {
         cout << "*";
-        this_thread::sleep_for(chrono::milliseconds(10));  // Delay
+        Sleep(20);  // Delay
     }
     cout << endl;
 }
@@ -109,73 +107,6 @@ void mainMenu() {
 
 }
 
-
-// Handle manual input
-void manualInput() {
-
-    string data;
-    vector<string> prompt = { "Enter data manually:" };
-    drawBorderWithText(50, 10, prompt);
-    cin.ignore();
-
-    getline(cin, data);
-    system("cls");
-    string message = "You entered: " + data;
-
-
-    for (char c : message) {
-        cout << c << flush;
-        this_thread::sleep_for(chrono::milliseconds(20));  // Pause between characters
-    }
-    cout << endl;
-    this_thread::sleep_for(chrono::milliseconds(500));
-    for (int i = 0; i < 3; i++) {
-        cout << ".";
-        this_thread::sleep_for(chrono::milliseconds(500));
-    }
-    cout << endl << "Download complete!" << endl;
-    system("cls");
-}
-
-
-// Parser data from file
-void fileParser() {
-    vector<string> prompt = { "Enter file id:" };
-    drawBorderWithText(50, 10, prompt);
-
-    string filename;
-    cin >> filename;
-    system("cls");
-    ifstream file(filename);
-    if (file.is_open()) {
-        vector<string> fileLines;
-        string line;
-        while (getline(file, line)) {
-            fileLines.push_back(line);
-        }
-        file.close();
-        drawBorderWithText(50, fileLines.size() + 4, fileLines);
-        this_thread::sleep_for(chrono::milliseconds(500));
-        for (int i = 0; i < 3; i++) {
-            cout << ".";
-            this_thread::sleep_for(chrono::milliseconds(500));
-        }
-        cout << endl << "Download complete!" << endl;
-        system("cls");
-    }
-    else {
-        vector<string> error = { "Error: file not found" };
-        drawBorderWithText(50, 10, error);
-        this_thread::sleep_for(chrono::milliseconds(500));
-        for (int i = 0; i < 3; i++) {
-            cout << ".";
-            this_thread::sleep_for(chrono::milliseconds(500));
-        }
-        cout << endl << "Download complete!" << endl;
-        system("cls");
-    }
-}
-
 // Function to change the window title
 void setConsoleTitle(const string& title) {
     setlocale(LC_CTYPE, "Russian");
@@ -190,61 +121,4 @@ void setConsoleSize(int width, int height) {
     COORD coord = { width, height };
     SetConsoleScreenBufferSize(hConsole, coord);
     SetConsoleWindowInfo(hConsole, TRUE, &rect);
-}
-
-int main() {
-    setConsoleSize(70, 50);
-    setlocale(LC_CTYPE, "Russian");
-    setConsoleTitle("FAIRTURN");
-    HANDLE out_handle = GetStdHandle(STD_OUTPUT_HANDLE);
-
-
-    welcomeAnimation(); // Welcome animation
-
-    int choice;
-    while (true) {
-        mainMenu();  // Main menu
-        string message = "Select action:";
-
-
-        for (char c : message) {
-            cout << c << flush;
-            this_thread::sleep_for(chrono::milliseconds(20));  // Pause between characters
-        }
-        cin >> choice;
-        system("cls");
-
-        if (choice == 1) {
-            manualInput();  // Enter data manually
-        }
-        else if (choice == 2) {
-            fileParser();  // Parser data from file
-        }
-        else if (choice == 3) {
-
-
-            string message = "Exit the program...";
-
-
-            for (char c : message) {
-                cout << c << flush;
-                this_thread::sleep_for(chrono::milliseconds(100));  // Pause between characters
-            }
-            cout << endl;
-            break;  // Exit the program
-        }
-        else {
-            vector<string> error = { "Incorrect choice. Try again!" };
-            drawBorderWithText(50, 10, error);  // Error during selection
-            this_thread::sleep_for(chrono::milliseconds(500));
-            for (int i = 0; i < 3; i++) {
-                cout << ".";
-                this_thread::sleep_for(chrono::milliseconds(500));
-            }
-            cout << endl << "Download complete!" << endl;
-            system("cls");
-        }
-    }
-    std::cin.get();
-    return 0;
 }

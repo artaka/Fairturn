@@ -23,7 +23,7 @@ def upload_csv_to_gsheet(csv_file_path, spreadsheet_id, worksheet_name, credenti
             raise FileNotFoundError(f"CSV file {csv_file_path} not found.")
         
         # Read the CSV file
-        with open(csv_file_path, 'r', encoding='utf-8') as csvfile:
+        with open(csv_file_path, 'r', encoding='cp1251') as csvfile:
             reader = csv.reader(csvfile)
             values = list(reader)
 
@@ -47,14 +47,15 @@ if __name__ == "__main__":
     # Console input
     print("Enter data to upload to Google Sheets:")
 
+    # Spreadsheet ID
+    spreadsheet_id = input("Spreadsheet ID: ").strip()
+    worksheet_name = input("Worksheet name (for example, 'Sheet1'): ").strip()
+
     # Path to the CSV file with default handling
     csv_file_path = input("Path to the CSV file (default 'output.csv', type 'd' for default): ").strip()
     if csv_file_path.lower() == 'd' or not csv_file_path:
         csv_file_path = 'output.csv'
 
-    # Spreadsheet ID
-    spreadsheet_id = input("Spreadsheet ID: ").strip()
-    worksheet_name = input("Worksheet name (for example, 'Sheet1'): ").strip()
 
     # Path to the credentials token file with default handling
     credentials_path = input("Path to the credentials file (default 'token.pickle', type 'd' for default): ").strip()

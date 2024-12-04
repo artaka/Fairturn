@@ -40,4 +40,5 @@ void printSortedData(vector<pair<string, vector<int>>>& sortedMembers) {
             << attended << " "
             << totalScore << endl;
     }
+	cout << endl << endl;
 }

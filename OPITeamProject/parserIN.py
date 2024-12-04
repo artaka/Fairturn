@@ -29,7 +29,7 @@ def download_gsheet_to_csv(spreadsheet_id, worksheet_name, csv_file_path, creden
             return
 
         # Write data to the CSV file
-        with open(csv_file_path, 'w', newline='', encoding='utf-8') as csvfile:
+        with open(csv_file_path, 'w', newline='', encoding='cp1251') as csvfile:
             writer = csv.writer(csvfile)
             writer.writerows(values)
 
