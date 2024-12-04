@@ -11,7 +11,9 @@ void startWelcomeAnimation() {
         "| $$$$    /      $$| $$| $$   \\$$ | $$ __ | $$  | $$| $$   \\$$| $$  | $$",
         "| $$     |  $$$$$$$| $$| $$       | $$|  \\| $$__/ $$| $$      | $$  | $$",
         "| $$      \\$$    $$| $$| $$        \\$$  $$ \\$$    $$| $$      | $$  | $$",
-        " \\$$       \\$$$$$$$ \\$$ \\$$         \\$$$$   \\$$$$$$  \\$$       \\$$   \\$$"
+        " \\$$       \\$$$$$$$ \\$$ \\$$         \\$$$$   \\$$$$$$  \\$$       \\$$   \\$$",
+        "",
+        "Developed by artaka, m0loko, tmg24aqua, TimaEvchuk, artemdol12"
     };
 
     // Loop through each line of text
@@ -24,7 +26,7 @@ void startWelcomeAnimation() {
         cout << endl;
         Sleep(250);  // Delay between lines
     }
-    Sleep(600);  // Pause before clearing the screen
+    Sleep(1000);  // Pause before clearing the screen
     // Clear the screen with a fade-out effect
     for (int i = 0; i < 5; ++i) {
         system("cls");  // Clear the console

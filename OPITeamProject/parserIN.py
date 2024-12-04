@@ -41,14 +41,22 @@ if __name__ == "__main__":
     # Console input
     print("Enter data to download from Google Sheets:")
     spreadsheet_id = input("Spreadsheet ID: ").strip()
+
+    with open("id.csv", 'w', newline='', encoding='cp1251') as csvfile:
+            csvfile.write(spreadsheet_id)
+
     worksheet_name = input("Worksheet name: ").strip()
 
     # Input with default handling
     csv_file_path = input("Path to save CSV (default 'output.csv', type 'd' for default): ").strip()
+    with open("pathfile.csv", 'w', newline='', encoding='cp1251') as csvfile:
+            csvfile.write('d')
     if csv_file_path.lower() == 'd' or not csv_file_path:
         csv_file_path = 'output.csv'
 
     credentials_path = input("Path to credentials file (default 'token.pickle', type 'd' for default): ").strip()
+    with open("pathtoken.csv", 'w', newline='', encoding='cp1251') as csvfile:
+            csvfile.write('d')
     if credentials_path.lower() == 'd' or not credentials_path:
         credentials_path = 'token.pickle'
 

@@ -48,17 +48,23 @@ if __name__ == "__main__":
     print("Enter data to upload to Google Sheets:")
 
     # Spreadsheet ID
-    spreadsheet_id = input("Spreadsheet ID: ").strip()
-    worksheet_name = input("Worksheet name (for example, 'Sheet1'): ").strip()
+    spreadsheet_id = ""
+    with open("id.csv", 'r', newline='', encoding='cp1251') as csvfile:
+            spreadsheet_id = csvfile.read().strip()
+    worksheet_name = input("Worksheet name for save sorted data(for example, 'Sheet1'): ").strip()
 
     # Path to the CSV file with default handling
-    csv_file_path = input("Path to the CSV file (default 'output.csv', type 'd' for default): ").strip()
+    csv_file_path = ""
+    with open("pathfile.csv", 'r', newline='', encoding='cp1251') as csvfile:
+            csv_file_path = csvfile.read().strip()
     if csv_file_path.lower() == 'd' or not csv_file_path:
         csv_file_path = 'output.csv'
 
 
     # Path to the credentials token file with default handling
-    credentials_path = input("Path to the credentials file (default 'token.pickle', type 'd' for default): ").strip()
+    credentials_path = ""
+    with open("pathtoken.csv", 'r', newline='', encoding='cp1251') as csvfile:
+            credentials_path = csvfile.read().strip()
     if credentials_path.lower() == 'd' or not credentials_path:
         credentials_path = 'token.pickle'
 
