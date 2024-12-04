@@ -70,7 +70,7 @@ void   welcomeAnimation() {
         "| $$$$    /      $$| $$| $$   \\$$ | $$ __ | $$  | $$| $$   \\$$| $$  | $$",
         "| $$     |  $$$$$$$| $$| $$       | $$|  \\| $$__/ $$| $$      | $$  | $$",
         "| $$      \\$$    $$| $$| $$        \\$$  $$ \\$$    $$| $$      | $$  | $$",
-        " \\$$       \\$$$$$$$ \\$$ \\$$         \\$$$$   \\$$$$$$  \\$$       \\$$   \\$$"
+        " \\$$       \\$$$$$$$ \\$$ \\$$         \\$$$$   \\$$$$$$  \\$$       \\$$   \\$$",
     };
     // Loop through each line of text
     for (const string& line : lines) {
@@ -80,7 +80,7 @@ void   welcomeAnimation() {
             Sleep(0.99);            // Delay between characters (in milliseconds)
         }
         cout << endl;
-        Sleep(250);  // Delay between lines
+        Sleep(500);  // Delay between lines
     }
     Sleep(800);  // Pause before clearing the screen
     // Clear the screen with a fade-out effect
@@ -96,9 +96,11 @@ void   welcomeAnimation() {
 // Main menu
 void mainMenu() {
     vector<string> menu = {
+        "Fairnturn",
+        "",
          "====== Main menu =======",
         "1. Enter data manually"   ,
-        "2. Load data from file"   ,
+        "2. Load data from Google Sheets"   ,
         "3. Exit the program   "   ,
 
 

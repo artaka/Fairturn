@@ -30,7 +30,6 @@ map <string, vector<int>> inputFromFile() {
 		cout << "Error opening file!" << endl;
 	}
 	else {
-		cout << "File opened, writing to map was successful!" << endl;
 		string str;
 		while (getline(in, str)) {
 			if (str.empty()) continue;
@@ -57,6 +56,7 @@ map <string, vector<int>> inputFromFile() {
 			}
 			memberList[surname] = data;
 		}
+		cout << "File opened, writing to map was successful!" << endl;
 	}
 	in.close();
 	return memberList;
