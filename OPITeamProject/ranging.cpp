@@ -30,8 +30,10 @@ map <string, vector <int>> getSum(map <string, vector <int>> members, vector<str
 	return members;
 }
 
-vector<pair<string, vector<int>>> ranging(map <string, vector <int>> members, vector<string> surnames) {
+vector<pair<string, vector<int>>> ranging(map <string, vector <int>> membersList) {
 
+	vector<string> surnames = getSurnames(membersList);
+	map <string, vector <int>> members = getSum(membersList,surnames);
 	pair<string, vector<int>> data;
 	vector<pair<string, vector<int>>> sortedMembers; // vector for return sorted list with std::pair
 	int size = surnames.size(); // variable for get common size of surname vector once per iteration

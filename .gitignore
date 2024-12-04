@@ -54,6 +54,3 @@ ipch/
 *.jfm
 *.pfx
 *.publishsettings
-*.vcxproj
-*.filters
-*.user

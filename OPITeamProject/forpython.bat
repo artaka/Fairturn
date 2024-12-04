@@ -103,5 +103,4 @@ for %%L in (google-api-python-client google-auth google-auth-oauthlib) do (
 )
 
 echo All required libraries have been successfully updated.
-pause
 exit /b
