@@ -20,7 +20,7 @@ map <string, vector<int>> inputFromFile() {
 	vector<int> data(3);
 	map <string, vector<int>> memberList;
 	string path;
-	cout << "Enter the file name where the data will be written in the format 'name.csv' (Press d to select the default file 'output.csv'): "; cin >> path;
+	cout << "Enter the name of the file in which to write the data (default 'output.csv', enter 'd' for the default value): "; cin >> path;
 	if (path == "d") {
 		path = "output.csv";
 	}

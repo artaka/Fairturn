@@ -1,76 +1,76 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\prog\\\u041E\u041F\u0418\\labs\\OPITeamProject\\",
+  "WorkspaceRootPath": "G:\\4) \u041F\u0420\u041E\u0415\u041A\u0422_\u041E\u041F\u0418\\OPITeam_Project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9DB9DE87-5282-4606-BFD5-1709A03BE779}|OPITeamProject\\OPITeamProject.vcxproj|D:\\prog\\\u041E\u041F\u0418\\labs\\OPITeamProject\\OPITeamProject\\parserOUT.py||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{9DB9DE87-5282-4606-BFD5-1709A03BE779}|OPITeamProject\\OPITeamProject.vcxproj|solutionrelative:OPITeamProject\\parserOUT.py||{3B902123-F8A7-4915-9F01-361F908088D0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9DB9DE87-5282-4606-BFD5-1709A03BE779}|OPITeamProject\\OPITeamProject.vcxproj|D:\\prog\\\u041E\u041F\u0418\\labs\\OPITeamProject\\OPITeamProject\\parserIN.py||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{9DB9DE87-5282-4606-BFD5-1709A03BE779}|OPITeamProject\\OPITeamProject.vcxproj|solutionrelative:OPITeamProject\\parserIN.py||{3B902123-F8A7-4915-9F01-361F908088D0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9DB9DE87-5282-4606-BFD5-1709A03BE779}|OPITeamProject\\OPITeamProject.vcxproj|D:\\prog\\\u041E\u041F\u0418\\labs\\OPITeamProject\\OPITeamProject\\parserOUT.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{9DB9DE87-5282-4606-BFD5-1709A03BE779}|OPITeamProject\\OPITeamProject.vcxproj|solutionrelative:OPITeamProject\\parserOUT.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9DB9DE87-5282-4606-BFD5-1709A03BE779}|OPITeamProject\\OPITeamProject.vcxproj|D:\\prog\\\u041E\u041F\u0418\\labs\\OPITeamProject\\OPITeamProject\\writeToFile.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{9DB9DE87-5282-4606-BFD5-1709A03BE779}|OPITeamProject\\OPITeamProject.vcxproj|solutionrelative:OPITeamProject\\writeToFile.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9DB9DE87-5282-4606-BFD5-1709A03BE779}|OPITeamProject\\OPITeamProject.vcxproj|D:\\prog\\\u041E\u041F\u0418\\labs\\OPITeamProject\\OPITeamProject\\Sorting.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{9DB9DE87-5282-4606-BFD5-1709A03BE779}|OPITeamProject\\OPITeamProject.vcxproj|solutionrelative:OPITeamProject\\Sorting.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9DB9DE87-5282-4606-BFD5-1709A03BE779}|OPITeamProject\\OPITeamProject.vcxproj|D:\\prog\\\u041E\u041F\u0418\\labs\\OPITeamProject\\OPITeamProject\\ranging.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{9DB9DE87-5282-4606-BFD5-1709A03BE779}|OPITeamProject\\OPITeamProject.vcxproj|solutionrelative:OPITeamProject\\ranging.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9DB9DE87-5282-4606-BFD5-1709A03BE779}|OPITeamProject\\OPITeamProject.vcxproj|D:\\prog\\\u041E\u041F\u0418\\labs\\OPITeamProject\\OPITeamProject\\parserIN.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{9DB9DE87-5282-4606-BFD5-1709A03BE779}|OPITeamProject\\OPITeamProject.vcxproj|solutionrelative:OPITeamProject\\parserIN.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9DB9DE87-5282-4606-BFD5-1709A03BE779}|OPITeamProject\\OPITeamProject.vcxproj|D:\\prog\\\u041E\u041F\u0418\\labs\\OPITeamProject\\OPITeamProject\\MENU.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{9DB9DE87-5282-4606-BFD5-1709A03BE779}|OPITeamProject\\OPITeamProject.vcxproj|solutionrelative:OPITeamProject\\MENU.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9DB9DE87-5282-4606-BFD5-1709A03BE779}|OPITeamProject\\OPITeamProject.vcxproj|D:\\prog\\\u041E\u041F\u0418\\labs\\OPITeamProject\\OPITeamProject\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{9DB9DE87-5282-4606-BFD5-1709A03BE779}|OPITeamProject\\OPITeamProject.vcxproj|G:\\4) \u041F\u0420\u041E\u0415\u041A\u0422_\u041E\u041F\u0418\\OPITeam_Project\\OPITeamProject\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{9DB9DE87-5282-4606-BFD5-1709A03BE779}|OPITeamProject\\OPITeamProject.vcxproj|solutionrelative:OPITeamProject\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9DB9DE87-5282-4606-BFD5-1709A03BE779}|OPITeamProject\\OPITeamProject.vcxproj|D:\\prog\\\u041E\u041F\u0418\\labs\\OPITeamProject\\OPITeamProject\\logo.cpp||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{9DB9DE87-5282-4606-BFD5-1709A03BE779}|OPITeamProject\\OPITeamProject.vcxproj|solutionrelative:OPITeamProject\\logo.cpp||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{9DB9DE87-5282-4606-BFD5-1709A03BE779}|OPITeamProject\\OPITeamProject.vcxproj|G:\\4) \u041F\u0420\u041E\u0415\u041A\u0422_\u041E\u041F\u0418\\OPITeam_Project\\OPITeamProject\\Sorting.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9DB9DE87-5282-4606-BFD5-1709A03BE779}|OPITeamProject\\OPITeamProject.vcxproj|solutionrelative:OPITeamProject\\Sorting.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9DB9DE87-5282-4606-BFD5-1709A03BE779}|OPITeamProject\\OPITeamProject.vcxproj|D:\\prog\\\u041E\u041F\u0418\\labs\\OPITeamProject\\OPITeamProject\\inputFromFile.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{9DB9DE87-5282-4606-BFD5-1709A03BE779}|OPITeamProject\\OPITeamProject.vcxproj|G:\\4) \u041F\u0420\u041E\u0415\u041A\u0422_\u041E\u041F\u0418\\OPITeam_Project\\OPITeamProject\\writeToFile.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9DB9DE87-5282-4606-BFD5-1709A03BE779}|OPITeamProject\\OPITeamProject.vcxproj|solutionrelative:OPITeamProject\\writeToFile.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DB9DE87-5282-4606-BFD5-1709A03BE779}|OPITeamProject\\OPITeamProject.vcxproj|G:\\4) \u041F\u0420\u041E\u0415\u041A\u0422_\u041E\u041F\u0418\\OPITeam_Project\\OPITeamProject\\inputFromFile.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{9DB9DE87-5282-4606-BFD5-1709A03BE779}|OPITeamProject\\OPITeamProject.vcxproj|solutionrelative:OPITeamProject\\inputFromFile.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9DB9DE87-5282-4606-BFD5-1709A03BE779}|OPITeamProject\\OPITeamProject.vcxproj|D:\\prog\\\u041E\u041F\u0418\\labs\\OPITeamProject\\OPITeamProject\\input.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{9DB9DE87-5282-4606-BFD5-1709A03BE779}|OPITeamProject\\OPITeamProject.vcxproj|G:\\4) \u041F\u0420\u041E\u0415\u041A\u0422_\u041E\u041F\u0418\\OPITeam_Project\\OPITeamProject\\parserIN.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9DB9DE87-5282-4606-BFD5-1709A03BE779}|OPITeamProject\\OPITeamProject.vcxproj|solutionrelative:OPITeamProject\\parserIN.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DB9DE87-5282-4606-BFD5-1709A03BE779}|OPITeamProject\\OPITeamProject.vcxproj|G:\\4) \u041F\u0420\u041E\u0415\u041A\u0422_\u041E\u041F\u0418\\OPITeam_Project\\OPITeamProject\\parserIN.py||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{9DB9DE87-5282-4606-BFD5-1709A03BE779}|OPITeamProject\\OPITeamProject.vcxproj|solutionrelative:OPITeamProject\\parserIN.py||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DB9DE87-5282-4606-BFD5-1709A03BE779}|OPITeamProject\\OPITeamProject.vcxproj|G:\\4) \u041F\u0420\u041E\u0415\u041A\u0422_\u041E\u041F\u0418\\OPITeam_Project\\OPITeamProject\\parserOUT.py||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{9DB9DE87-5282-4606-BFD5-1709A03BE779}|OPITeamProject\\OPITeamProject.vcxproj|solutionrelative:OPITeamProject\\parserOUT.py||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DB9DE87-5282-4606-BFD5-1709A03BE779}|OPITeamProject\\OPITeamProject.vcxproj|G:\\4) \u041F\u0420\u041E\u0415\u041A\u0422_\u041E\u041F\u0418\\OPITeam_Project\\OPITeamProject\\parserOUT.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9DB9DE87-5282-4606-BFD5-1709A03BE779}|OPITeamProject\\OPITeamProject.vcxproj|solutionrelative:OPITeamProject\\parserOUT.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DB9DE87-5282-4606-BFD5-1709A03BE779}|OPITeamProject\\OPITeamProject.vcxproj|G:\\4) \u041F\u0420\u041E\u0415\u041A\u0422_\u041E\u041F\u0418\\OPITeam_Project\\OPITeamProject\\ranging.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9DB9DE87-5282-4606-BFD5-1709A03BE779}|OPITeamProject\\OPITeamProject.vcxproj|solutionrelative:OPITeamProject\\ranging.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DB9DE87-5282-4606-BFD5-1709A03BE779}|OPITeamProject\\OPITeamProject.vcxproj|G:\\4) \u041F\u0420\u041E\u0415\u041A\u0422_\u041E\u041F\u0418\\OPITeam_Project\\OPITeamProject\\MENU.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9DB9DE87-5282-4606-BFD5-1709A03BE779}|OPITeamProject\\OPITeamProject.vcxproj|solutionrelative:OPITeamProject\\MENU.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DB9DE87-5282-4606-BFD5-1709A03BE779}|OPITeamProject\\OPITeamProject.vcxproj|G:\\4) \u041F\u0420\u041E\u0415\u041A\u0422_\u041E\u041F\u0418\\OPITeam_Project\\OPITeamProject\\logo.cpp||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{9DB9DE87-5282-4606-BFD5-1709A03BE779}|OPITeamProject\\OPITeamProject.vcxproj|solutionrelative:OPITeamProject\\logo.cpp||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DB9DE87-5282-4606-BFD5-1709A03BE779}|OPITeamProject\\OPITeamProject.vcxproj|G:\\4) \u041F\u0420\u041E\u0415\u041A\u0422_\u041E\u041F\u0418\\OPITeam_Project\\OPITeamProject\\input.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{9DB9DE87-5282-4606-BFD5-1709A03BE779}|OPITeamProject\\OPITeamProject.vcxproj|solutionrelative:OPITeamProject\\input.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9DB9DE87-5282-4606-BFD5-1709A03BE779}|OPITeamProject\\OPITeamProject.vcxproj|D:\\prog\\\u041E\u041F\u0418\\labs\\OPITeamProject\\OPITeamProject\\Header.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{9DB9DE87-5282-4606-BFD5-1709A03BE779}|OPITeamProject\\OPITeamProject.vcxproj|G:\\4) \u041F\u0420\u041E\u0415\u041A\u0422_\u041E\u041F\u0418\\OPITeam_Project\\OPITeamProject\\Header.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{9DB9DE87-5282-4606-BFD5-1709A03BE779}|OPITeamProject\\OPITeamProject.vcxproj|solutionrelative:OPITeamProject\\Header.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9DB9DE87-5282-4606-BFD5-1709A03BE779}|OPITeamProject\\OPITeamProject.vcxproj|D:\\prog\\\u041E\u041F\u0418\\labs\\OPITeamProject\\OPITeamProject\\forpython.bat||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "AbsoluteMoniker": "D:0:0:{9DB9DE87-5282-4606-BFD5-1709A03BE779}|OPITeamProject\\OPITeamProject.vcxproj|G:\\4) \u041F\u0420\u041E\u0415\u041A\u0422_\u041E\u041F\u0418\\OPITeam_Project\\OPITeamProject\\forpython.bat||{3B902123-F8A7-4915-9F01-361F908088D0}",
       "RelativeMoniker": "D:0:0:{9DB9DE87-5282-4606-BFD5-1709A03BE779}|OPITeamProject\\OPITeamProject.vcxproj|solutionrelative:OPITeamProject\\forpython.bat||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\include\\string||{3B902123-F8A7-4915-9F01-361F908088D0}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9DB9DE87-5282-4606-BFD5-1709A03BE779}|OPITeamProject\\OPITeamProject.vcxproj|D:\\prog\\\u041E\u041F\u0418\\labs\\OPITeamProject\\OPITeamProject\\parser.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{9DB9DE87-5282-4606-BFD5-1709A03BE779}|OPITeamProject\\OPITeamProject.vcxproj|G:\\4) \u041F\u0420\u041E\u0415\u041A\u0422_\u041E\u041F\u0418\\OPITeam_Project\\OPITeamProject\\parser.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{9DB9DE87-5282-4606-BFD5-1709A03BE779}|OPITeamProject\\OPITeamProject.vcxproj|solutionrelative:OPITeamProject\\parser.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9DB9DE87-5282-4606-BFD5-1709A03BE779}|OPITeamProject\\OPITeamProject.vcxproj|D:\\prog\\\u041E\u041F\u0418\\labs\\OPITeamProject\\OPITeamProject\\input.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{9DB9DE87-5282-4606-BFD5-1709A03BE779}|OPITeamProject\\OPITeamProject.vcxproj|G:\\4) \u041F\u0420\u041E\u0415\u041A\u0422_\u041E\u041F\u0418\\OPITeam_Project\\OPITeamProject\\input.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{9DB9DE87-5282-4606-BFD5-1709A03BE779}|OPITeamProject\\OPITeamProject.vcxproj|solutionrelative:OPITeamProject\\input.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9DB9DE87-5282-4606-BFD5-1709A03BE779}|OPITeamProject\\OPITeamProject.vcxproj|D:\\prog\\\u041E\u041F\u0418\\labs\\OPITeamProject\\OPITeamProject\\menu.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{9DB9DE87-5282-4606-BFD5-1709A03BE779}|OPITeamProject\\OPITeamProject.vcxproj|G:\\4) \u041F\u0420\u041E\u0415\u041A\u0422_\u041E\u041F\u0418\\OPITeam_Project\\OPITeamProject\\menu.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{9DB9DE87-5282-4606-BFD5-1709A03BE779}|OPITeamProject\\OPITeamProject.vcxproj|solutionrelative:OPITeamProject\\menu.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -81,59 +81,39 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 11,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "parserOUT.cpp",
-              "DocumentMoniker": "D:\\prog\\\u041E\u041F\u0418\\labs\\OPITeamProject\\OPITeamProject\\parserOUT.cpp",
-              "RelativeDocumentMoniker": "OPITeamProject\\parserOUT.cpp",
-              "ToolTip": "D:\\prog\\\u041E\u041F\u0418\\labs\\OPITeamProject\\OPITeamProject\\parserOUT.cpp",
-              "RelativeToolTip": "OPITeamProject\\parserOUT.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-04T23:10:22Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 3,
               "Title": "inputFromFile.cpp",
-              "DocumentMoniker": "D:\\prog\\\u041E\u041F\u0418\\labs\\OPITeamProject\\OPITeamProject\\inputFromFile.cpp",
+              "DocumentMoniker": "G:\\4) \u041F\u0420\u041E\u0415\u041A\u0422_\u041E\u041F\u0418\\OPITeam_Project\\OPITeamProject\\inputFromFile.cpp",
               "RelativeDocumentMoniker": "OPITeamProject\\inputFromFile.cpp",
-              "ToolTip": "D:\\prog\\\u041E\u041F\u0418\\labs\\OPITeamProject\\OPITeamProject\\inputFromFile.cpp",
+              "ToolTip": "G:\\4) \u041F\u0420\u041E\u0415\u041A\u0422_\u041E\u041F\u0418\\OPITeam_Project\\OPITeamProject\\inputFromFile.cpp",
               "RelativeToolTip": "OPITeamProject\\inputFromFile.cpp",
-              "ViewState": "AgIAACgAAAAAAAAAAAAjwDMAAAAAAAAAAAAAAA==",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAB4AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-12-03T21:55:01.715Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
               "Title": "parserIN.cpp",
-              "DocumentMoniker": "D:\\prog\\\u041E\u041F\u0418\\labs\\OPITeamProject\\OPITeamProject\\parserIN.cpp",
+              "DocumentMoniker": "G:\\4) \u041F\u0420\u041E\u0415\u041A\u0422_\u041E\u041F\u0418\\OPITeam_Project\\OPITeamProject\\parserIN.cpp",
               "RelativeDocumentMoniker": "OPITeamProject\\parserIN.cpp",
-              "ToolTip": "D:\\prog\\\u041E\u041F\u0418\\labs\\OPITeamProject\\OPITeamProject\\parserIN.cpp",
+              "ToolTip": "G:\\4) \u041F\u0420\u041E\u0415\u041A\u0422_\u041E\u041F\u0418\\OPITeam_Project\\OPITeamProject\\parserIN.cpp",
               "RelativeToolTip": "OPITeamProject\\parserIN.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-12-03T21:44:08.645Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "MENU.cpp",
-              "DocumentMoniker": "D:\\prog\\\u041E\u041F\u0418\\labs\\OPITeamProject\\OPITeamProject\\MENU.cpp",
+              "DocumentMoniker": "G:\\4) \u041F\u0420\u041E\u0415\u041A\u0422_\u041E\u041F\u0418\\OPITeam_Project\\OPITeamProject\\MENU.cpp",
               "RelativeDocumentMoniker": "OPITeamProject\\MENU.cpp",
-              "ToolTip": "D:\\prog\\\u041E\u041F\u0418\\labs\\OPITeamProject\\OPITeamProject\\MENU.cpp",
+              "ToolTip": "G:\\4) \u041F\u0420\u041E\u0415\u041A\u0422_\u041E\u041F\u0418\\OPITeam_Project\\OPITeamProject\\MENU.cpp",
               "RelativeToolTip": "OPITeamProject\\MENU.cpp",
               "ViewState": "AgIAAHAAAAAAAAAAAAAAAGMAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
@@ -141,11 +121,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "ranging.cpp",
-              "DocumentMoniker": "D:\\prog\\\u041E\u041F\u0418\\labs\\OPITeamProject\\OPITeamProject\\ranging.cpp",
+              "DocumentMoniker": "G:\\4) \u041F\u0420\u041E\u0415\u041A\u0422_\u041E\u041F\u0418\\OPITeam_Project\\OPITeamProject\\ranging.cpp",
               "RelativeDocumentMoniker": "OPITeamProject\\ranging.cpp",
-              "ToolTip": "D:\\prog\\\u041E\u041F\u0418\\labs\\OPITeamProject\\OPITeamProject\\ranging.cpp",
+              "ToolTip": "G:\\4) \u041F\u0420\u041E\u0415\u041A\u0422_\u041E\u041F\u0418\\OPITeam_Project\\OPITeamProject\\ranging.cpp",
               "RelativeToolTip": "OPITeamProject\\ranging.cpp",
               "ViewState": "AgIAADkAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
@@ -153,60 +133,59 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "Sorting.cpp",
-              "DocumentMoniker": "D:\\prog\\\u041E\u041F\u0418\\labs\\OPITeamProject\\OPITeamProject\\Sorting.cpp",
+              "DocumentMoniker": "G:\\4) \u041F\u0420\u041E\u0415\u041A\u0422_\u041E\u041F\u0418\\OPITeam_Project\\OPITeamProject\\Sorting.cpp",
               "RelativeDocumentMoniker": "OPITeamProject\\Sorting.cpp",
-              "ToolTip": "D:\\prog\\\u041E\u041F\u0418\\labs\\OPITeamProject\\OPITeamProject\\Sorting.cpp",
+              "ToolTip": "G:\\4) \u041F\u0420\u041E\u0415\u041A\u0422_\u041E\u041F\u0418\\OPITeam_Project\\OPITeamProject\\Sorting.cpp",
               "RelativeToolTip": "OPITeamProject\\Sorting.cpp",
-              "ViewState": "AgIAACAAAAAAAAAAAAAjwBoAAAAAAAAAAAAAAA==",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAACQAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-12-02T22:49:02.186Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "writeToFile.cpp",
-              "DocumentMoniker": "D:\\prog\\\u041E\u041F\u0418\\labs\\OPITeamProject\\OPITeamProject\\writeToFile.cpp",
+              "DocumentMoniker": "G:\\4) \u041F\u0420\u041E\u0415\u041A\u0422_\u041E\u041F\u0418\\OPITeam_Project\\OPITeamProject\\writeToFile.cpp",
               "RelativeDocumentMoniker": "OPITeamProject\\writeToFile.cpp",
-              "ToolTip": "D:\\prog\\\u041E\u041F\u0418\\labs\\OPITeamProject\\OPITeamProject\\writeToFile.cpp",
+              "ToolTip": "G:\\4) \u041F\u0420\u041E\u0415\u041A\u0422_\u041E\u041F\u0418\\OPITeam_Project\\OPITeamProject\\writeToFile.cpp",
               "RelativeToolTip": "OPITeamProject\\writeToFile.cpp",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAAAAsAAAAPAAAAAAAAAA==",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAB/AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-12-03T23:58:52.695Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "parserIN.py",
-              "DocumentMoniker": "D:\\prog\\\u041E\u041F\u0418\\labs\\OPITeamProject\\OPITeamProject\\parserIN.py",
+              "DocumentMoniker": "G:\\4) \u041F\u0420\u041E\u0415\u041A\u0422_\u041E\u041F\u0418\\OPITeam_Project\\OPITeamProject\\parserIN.py",
               "RelativeDocumentMoniker": "OPITeamProject\\parserIN.py",
-              "ToolTip": "D:\\prog\\\u041E\u041F\u0418\\labs\\OPITeamProject\\OPITeamProject\\parserIN.py",
+              "ToolTip": "G:\\4) \u041F\u0420\u041E\u0415\u041A\u0422_\u041E\u041F\u0418\\OPITeam_Project\\OPITeamProject\\parserIN.py",
               "RelativeToolTip": "OPITeamProject\\parserIN.py",
-              "ViewState": "AgIAADQAAAAAAAAAAAAAADUAAAA5AAAAAAAAAA==",
-              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAARHSURBVFhHxVddaBxVFP52dmZ3s5sak9h0NbWkBUtMBY0NxBfLFqTYB6UgGJ9CKARaHwytL4mCiA\u002BK6EvsY/DBh6DViqIVoa3aYo0JYgpFS4IW27UlptvEZjfZ2XUzM55z5\u002B7s7K8zpqUffJw7d\u002B6c891z7s8u7iosy5Ktu4eAtFUYHh7eiLrrxMTExMTv9mN9NBQwPj4un7xjZGQEPT09lwgt9PifIhRpbysGBwd7ent7b1DzLE1km91bG3dEAGNoaIg0CBHfkoitdm81VGkbYmZmRrZqo6\u002BvD8FgUD6VwCLIXCBwJrgc1\u002Bw3JXjKAAdoxFrBi2ARtCbS1Dxr95TjjizCeqAMVMXzJMBPCXRdF7YSo6OjNQXUBQvIZrOCmUymIYvjmCTAobuf/UnXZfC0Bnh2jaiqKkKhMJZ0C/OLOmaTacz9tYbUmkH9ITGmHjZcgu7ubswuWpic\u002BgN/r\u002BowDUPQMNaFbY\u002BFMPbcblz\u002B\u002BRwGBgb\u002B3xowyFE9hJqieP7YeRzcswM3VrL4eOpylYiopmDyyFPY3NZaFW/DJVjJFlAorCNIrhWiaZpEEiBot9PZHAqWypdfs3TpwJMALkE9mqYlgrz39S/48PvfnNmXSCLIyhVYdfD5LoGiKAiqGn5dWMVyJg/TMrGWK9DsTFgkhu30/AKm566L72wR6zj52j5siS6QBwoZ6voTwfuOBgKBE54EFEEfIG8F8conF3E1lXGcuwPVbhs4/fqjaDOOS0ca0HbUgLp5t68SpFIpfPrTNSSd4JIVNa9uGzRvmUWL7HoGyJzivXnI113Q2dmJC1eWyhyLQG4xZbTfRcMaNoVu0QotUD3zZIn6RXa9x9cu4Ponb646jmvSNXOL2BKL4N2Dj0PNfmcHZrKIfJKyUej2tAY4/YxEIoH9b58Wgez62vv8iYc68NK\u002BCNqbKLUVCCs089XzFJTecQaYlrRdH/i7jvlHbCyklGZL3Bm/B28dWMQDgY8Qzn3l4kmEs58B6VNU85VS6osZMEiA0uTvIGIBOzqanRRzuvf3bkFAn5YjJXihiSCuoE5g2Q5vp92gzvvaBclkEomH7y/LQEvUpBGui8690CqDuvs27eXRX3gS0N/fLxiPx/H0Y1tp1tvo6LVPQEqLPYgOoIaBi8/GP0CsH2h9do2\u002BOubrIGLwTtA0TVgBYxlIvUFB5MJiavRDOPKILYrLwbb1ANXSuQouEV\u002Bkg\u002B2cpwy4wXXP5/Pil08ul7M7ndkRebY6\u002BV\u002BaBJZPALe\u002BJIHvU7/YIV3ECAXexcG5w7cAN8RfOz5Wi2l2p5rbHYeBB9\u002BhNt8VItQCBaYXJTQsgWw2xNjYGLbHPqe9/iMpcpVBlIL\u002BDqitFEWB3vHm8Wg0\u002BoL8zEFdAV5BWdhF0c4gfSaOlW8o/XP2vufMRHYCLXtRaH4mq4XCT9LsZ\u002BVntxck4l7iy8QfiBkig\u002B0U8VViuxxaAeBfu01fMm0QjssAAAAASUVORK5CYII=",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAADMAAABNAAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAMuSURBVDhPrVTPTxNREP627e7SQm0F2mKLUEVICP5IMBqUhB6NJ4/GGGPwoIf\u002BCR7VxBBPhnAxAeVC4kEuJB6Qi0Y8oCGKpoKQUpEWAhX6c7vb3X1Ol5UauzEc/JLJm31v3pdv5u0M/isYY5zpGohEIs8GBgZu8Dxv7tQik8mwbDb7YGpq6lEqlcqa2/twmOs\u002BBgcHEQgEzK9azMzMsHg8fsdut7Pp6enHKysrafPIQA1hBRRkelUQAcLhMEi9jTLxdnZ23pZl2elwOIYWFxe3zTBrwmAwaHpVcFy1OoIg8P39/c1Efo3KJquq\u002BpBEFCpnNiPiL9CFGvtd14rSyclJDA8P22dnZ1tcLlevKIp\u002B45BgqXBpacn0qqDUQGniXN9F9J6/AIeNg1TIyaOjo9/NEAOWhN3d3aZXRV5W8Sq2jY2sBElSwFNuR9x2x5HWtkabrZrogRXKDUEsb\u002BSxmSlg7tsG1LICX4PAX\u002Blpbff7/Q1mmHUNK6/5t2WKKt4uphBbS0NXy2QasvkiV1RtTrfb7TKvWhNWoGkaNHD4ulXGxNwmPibSOH3Ui95wI5rqeahESq8Ln7dwavLpjXe69HlB1/U2y5RXV1eNdb3E48VCDuvpHF1WoJWJhEyjdHWNVNKvJHBbgDQPlOZ74Ls7ZKmwq6vLsCKrw\u002BZu3lCjl1UquA6P0wGPi4eX7EzYhdNB6j5NoiL/AJS1S5YKY7GYsa6tS5BlUkOptTU6EI1IcNp3aQboNAh0eIUdhJybgFrcI9V2Pf9U2B4KQKCIisLbEQFnWz6gx7eMk/4VnGyOobU\u002BDk79SQF5IqNG4YM7loSKohjWfljE8WYn3KIdvkM6OKYBukIEMq2kkj7BiIJRF9Wd0iCEnlimnEwmjVUkuxU5jgzdD3jooUpEppWosT1kTlJE/S127UA89gV1J76Nj48PWRJ2dHSY3h4qg0HUkwz5AmcQajRc6vtIGRHam9aev1y/9/r1xNuRkZFiDeHY2Nj\u002BIPgTN69fThwVQ2Eon4iQHiD3HqzhPNOcvek3b\u002B7HK2Rm6MFAY\u002BoQ08uPWCmRYvl5ncnJBO29JLsajUbDe1HAL6CnYE1YMsFsAAAAAElFTkSuQmCC",
               "WhenOpened": "2024-12-03T23:35:23.178Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "parserOUT.py",
-              "DocumentMoniker": "D:\\prog\\\u041E\u041F\u0418\\labs\\OPITeamProject\\OPITeamProject\\parserOUT.py",
+              "DocumentMoniker": "G:\\4) \u041F\u0420\u041E\u0415\u041A\u0422_\u041E\u041F\u0418\\OPITeam_Project\\OPITeamProject\\parserOUT.py",
               "RelativeDocumentMoniker": "OPITeamProject\\parserOUT.py",
-              "ToolTip": "D:\\prog\\\u041E\u041F\u0418\\labs\\OPITeamProject\\OPITeamProject\\parserOUT.py",
+              "ToolTip": "G:\\4) \u041F\u0420\u041E\u0415\u041A\u0422_\u041E\u041F\u0418\\OPITeam_Project\\OPITeamProject\\parserOUT.py",
               "RelativeToolTip": "OPITeamProject\\parserOUT.py",
-              "ViewState": "AgIAADYAAAAAAAAAAAAAAEYAAAAXAAAAAAAAAA==",
-              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAARHSURBVFhHxVddaBxVFP52dmZ3s5sak9h0NbWkBUtMBY0NxBfLFqTYB6UgGJ9CKARaHwytL4mCiA\u002BK6EvsY/DBh6DViqIVoa3aYo0JYgpFS4IW27UlptvEZjfZ2XUzM55z5\u002B7s7K8zpqUffJw7d\u002B6c891z7s8u7iosy5Ktu4eAtFUYHh7eiLrrxMTExMTv9mN9NBQwPj4un7xjZGQEPT09lwgt9PifIhRpbysGBwd7ent7b1DzLE1km91bG3dEAGNoaIg0CBHfkoitdm81VGkbYmZmRrZqo6\u002BvD8FgUD6VwCLIXCBwJrgc1\u002Bw3JXjKAAdoxFrBi2ARtCbS1Dxr95TjjizCeqAMVMXzJMBPCXRdF7YSo6OjNQXUBQvIZrOCmUymIYvjmCTAobuf/UnXZfC0Bnh2jaiqKkKhMJZ0C/OLOmaTacz9tYbUmkH9ITGmHjZcgu7ubswuWpic\u002BgN/r\u002BowDUPQMNaFbY\u002BFMPbcblz\u002B\u002BRwGBgb\u002B3xowyFE9hJqieP7YeRzcswM3VrL4eOpylYiopmDyyFPY3NZaFW/DJVjJFlAorCNIrhWiaZpEEiBot9PZHAqWypdfs3TpwJMALkE9mqYlgrz39S/48PvfnNmXSCLIyhVYdfD5LoGiKAiqGn5dWMVyJg/TMrGWK9DsTFgkhu30/AKm566L72wR6zj52j5siS6QBwoZ6voTwfuOBgKBE54EFEEfIG8F8conF3E1lXGcuwPVbhs4/fqjaDOOS0ca0HbUgLp5t68SpFIpfPrTNSSd4JIVNa9uGzRvmUWL7HoGyJzivXnI113Q2dmJC1eWyhyLQG4xZbTfRcMaNoVu0QotUD3zZIn6RXa9x9cu4Ponb646jmvSNXOL2BKL4N2Dj0PNfmcHZrKIfJKyUej2tAY4/YxEIoH9b58Wgez62vv8iYc68NK\u002BCNqbKLUVCCs089XzFJTecQaYlrRdH/i7jvlHbCyklGZL3Bm/B28dWMQDgY8Qzn3l4kmEs58B6VNU85VS6osZMEiA0uTvIGIBOzqanRRzuvf3bkFAn5YjJXihiSCuoE5g2Q5vp92gzvvaBclkEomH7y/LQEvUpBGui8690CqDuvs27eXRX3gS0N/fLxiPx/H0Y1tp1tvo6LVPQEqLPYgOoIaBi8/GP0CsH2h9do2\u002BOubrIGLwTtA0TVgBYxlIvUFB5MJiavRDOPKILYrLwbb1ANXSuQouEV\u002Bkg\u002B2cpwy4wXXP5/Pil08ul7M7ndkRebY6\u002BV\u002BaBJZPALe\u002BJIHvU7/YIV3ECAXexcG5w7cAN8RfOz5Wi2l2p5rbHYeBB9\u002BhNt8VItQCBaYXJTQsgWw2xNjYGLbHPqe9/iMpcpVBlIL\u002BDqitFEWB3vHm8Wg0\u002BoL8zEFdAV5BWdhF0c4gfSaOlW8o/XP2vufMRHYCLXtRaH4mq4XCT9LsZ\u002BVntxck4l7iy8QfiBkig\u002B0U8VViuxxaAeBfu01fMm0QjssAAAAASUVORK5CYII=",
-              "WhenOpened": "2024-12-04T00:01:02.931Z",
-              "EditorCaption": ""
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAMuSURBVDhPrVTPTxNREP627e7SQm0F2mKLUEVICP5IMBqUhB6NJ4/GGGPwoIf\u002BCR7VxBBPhnAxAeVC4kEuJB6Qi0Y8oCGKpoKQUpEWAhX6c7vb3X1Ol5UauzEc/JLJm31v3pdv5u0M/isYY5zpGohEIs8GBgZu8Dxv7tQik8mwbDb7YGpq6lEqlcqa2/twmOs\u002BBgcHEQgEzK9azMzMsHg8fsdut7Pp6enHKysrafPIQA1hBRRkelUQAcLhMEi9jTLxdnZ23pZl2elwOIYWFxe3zTBrwmAwaHpVcFy1OoIg8P39/c1Efo3KJquq\u002BpBEFCpnNiPiL9CFGvtd14rSyclJDA8P22dnZ1tcLlevKIp\u002B45BgqXBpacn0qqDUQGniXN9F9J6/AIeNg1TIyaOjo9/NEAOWhN3d3aZXRV5W8Sq2jY2sBElSwFNuR9x2x5HWtkabrZrogRXKDUEsb\u002BSxmSlg7tsG1LICX4PAX\u002Blpbff7/Q1mmHUNK6/5t2WKKt4uphBbS0NXy2QasvkiV1RtTrfb7TKvWhNWoGkaNHD4ulXGxNwmPibSOH3Ui95wI5rqeahESq8Ln7dwavLpjXe69HlB1/U2y5RXV1eNdb3E48VCDuvpHF1WoJWJhEyjdHWNVNKvJHBbgDQPlOZ74Ls7ZKmwq6vLsCKrw\u002BZu3lCjl1UquA6P0wGPi4eX7EzYhdNB6j5NoiL/AJS1S5YKY7GYsa6tS5BlUkOptTU6EI1IcNp3aQboNAh0eIUdhJybgFrcI9V2Pf9U2B4KQKCIisLbEQFnWz6gx7eMk/4VnGyOobU\u002BDk79SQF5IqNG4YM7loSKohjWfljE8WYn3KIdvkM6OKYBukIEMq2kkj7BiIJRF9Wd0iCEnlimnEwmjVUkuxU5jgzdD3jooUpEppWosT1kTlJE/S127UA89gV1J76Nj48PWRJ2dHSY3h4qg0HUkwz5AmcQajRc6vtIGRHam9aev1y/9/r1xNuRkZFiDeHY2Nj\u002BIPgTN69fThwVQ2Eon4iQHiD3HqzhPNOcvek3b\u002B7HK2Rm6MFAY\u002BoQ08uPWCmRYvl5ncnJBO29JLsajUbDe1HAL6CnYE1YMsFsAAAAAElFTkSuQmCC",
+              "WhenOpened": "2024-12-04T00:01:02.931Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
               "Title": "input.cpp",
-              "DocumentMoniker": "D:\\prog\\\u041E\u041F\u0418\\labs\\OPITeamProject\\OPITeamProject\\input.cpp",
+              "DocumentMoniker": "G:\\4) \u041F\u0420\u041E\u0415\u041A\u0422_\u041E\u041F\u0418\\OPITeam_Project\\OPITeamProject\\input.cpp",
               "RelativeDocumentMoniker": "OPITeamProject\\input.cpp",
-              "ToolTip": "D:\\prog\\\u041E\u041F\u0418\\labs\\OPITeamProject\\OPITeamProject\\input.cpp",
+              "ToolTip": "G:\\4) \u041F\u0420\u041E\u0415\u041A\u0422_\u041E\u041F\u0418\\OPITeam_Project\\OPITeamProject\\input.cpp",
               "RelativeToolTip": "OPITeamProject\\input.cpp",
               "ViewState": "AgIAAA8AAAAAAAAAAAAAABQAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
@@ -216,9 +195,9 @@
               "$type": "Document",
               "DocumentIndex": 12,
               "Title": "Header.h",
-              "DocumentMoniker": "D:\\prog\\\u041E\u041F\u0418\\labs\\OPITeamProject\\OPITeamProject\\Header.h",
+              "DocumentMoniker": "G:\\4) \u041F\u0420\u041E\u0415\u041A\u0422_\u041E\u041F\u0418\\OPITeam_Project\\OPITeamProject\\Header.h",
               "RelativeDocumentMoniker": "OPITeamProject\\Header.h",
-              "ToolTip": "D:\\prog\\\u041E\u041F\u0418\\labs\\OPITeamProject\\OPITeamProject\\Header.h",
+              "ToolTip": "G:\\4) \u041F\u0420\u041E\u0415\u041A\u0422_\u041E\u041F\u0418\\OPITeam_Project\\OPITeamProject\\Header.h",
               "RelativeToolTip": "OPITeamProject\\Header.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
@@ -228,21 +207,46 @@
               "$type": "Document",
               "DocumentIndex": 13,
               "Title": "forpython.bat",
-              "DocumentMoniker": "D:\\prog\\\u041E\u041F\u0418\\labs\\OPITeamProject\\OPITeamProject\\forpython.bat",
+              "DocumentMoniker": "G:\\4) \u041F\u0420\u041E\u0415\u041A\u0422_\u041E\u041F\u0418\\OPITeam_Project\\OPITeamProject\\forpython.bat",
               "RelativeDocumentMoniker": "OPITeamProject\\forpython.bat",
-              "ToolTip": "D:\\prog\\\u041E\u041F\u0418\\labs\\OPITeamProject\\OPITeamProject\\forpython.bat",
+              "ToolTip": "G:\\4) \u041F\u0420\u041E\u0415\u041A\u0422_\u041E\u041F\u0418\\OPITeam_Project\\OPITeamProject\\forpython.bat",
               "RelativeToolTip": "OPITeamProject\\forpython.bat",
               "ViewState": "AgIAAGMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAMDSURBVFhH7ZVbSNNRHMe/C\u002BcNdOrU7OIlSc1LpeWltIt2EUyMokDKjMiHCMosi6UUJtEFgrKXHnrtyYeKqAwiC0pBXWYTN10asxQ056R20/X/b\u002Bv8j0eJcG5zpQ/5gbNz2e/w\u002B/x/5/w3LCh2u52NFlk4RFWy83dIXzE5nXfqlpCPf568sGjfjD2hQqiAvfbqdTafX2ouV0OowILitoCq7wuev2nBq\u002BZ2cDzPVueOSwI8SaQ3mul46JsOVqsVJpMZo2M/wHE8RnTf6XdzwSWBd/IuvG1ToLGpHUaTiQoIra1DiWeNTXjd1IaR0TEW7R5OBYa1YzCZzbCRhAby1FablY4FgYmfFlgsFtjIWnevhu1wD6cC0uBAhEmDwNOkPCJCpdibvxUZ6xNh5SdF/Hx8sDZxNdvhHk4FxF5eSIiNmn7qZUuldC0mcjmdCy0sNAghQRK2wz2cCpjME2iWK2giodSdqk\u002B03PKPXVRKaOq\u002BfijVvWyHezgXGB\u002BHwWiiyQUJvcFIkyvVn\u002Bl9mBLTzvFNcCoQLg1GcnwsfMk5ryJlp0dBXkuhD5IEIHJFBPx9fZFEYlo7FBgcGmY7XcOpgIBwwfYX5CE7IxWSwIDps9\u002B8cR3yc3NQcrAImq8DeFD/ELfv3ad7zOZx2jvDi/Uuk5ayBpqBQdhtdnIhw/H4xUu0vu8gQjx4joOFHFnNjVvQjmghO1eO6MiVbOfMuFSB34kmx5CbnYm8LVl03iL/AIPBAG\u002BxGEeLD2BTeho0/f3Q6/VQdffQmNlwW\u002BBPykqKyU81h6wNqcjOTEdZ6WEESySIj4tFQf4uFuUYjwXqHz2hpe/uUWNUp6NPPTw0hE5FJ542NLAox3gs4OMthpUIdClVOF0pQ\u002B21m\u002BQt4egfmL\u002BfP4tyjMcCx48cguxsOXbv2M4Sc7hyqRpVFyqxMy\u002BXRTnGY4FQaQgSE\u002BKwLSebtmOlJUhJTkJWZgaLmB2PBaaIiY7CqZMnUFS4h624xl8TmCuii7LKOhFEZ9h8XrFDdJcNF/lvAX4BFPtSJL7S3gcAAAAASUVORK5CYII=",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAJLSURBVDhPrZLfS1NhGMe/7znbYu1Mz\u002BbUVCSEbWXRJMxdRDdd9jsUDaSo/ySQ6qbLsIguIqG7iO668Rd0VZRoZbFg00T2y\u002BM2nXM/PGen5xyPjLkzSeYHXt73fXje7/PjfXCkKMpTRpuVFqcbGkdho3eGHzgEocUwHIpjdjtEsRn5XE6/x6KJGHv8aCwVCPS5dMshsdmscDgEFItFqKqK2ZnpJJt481odHBo2XKqRFQXF0g5sFgusVothrcAYA8dxKJfL\u002Bvnli3HtzlEkW9WyWrW2MqQyW/gZWkZcykAuq\u002BB5S40fz/P6bqGgeoDdWBVUWpGVKGY/L2DxTwRSOkOiYUx\u002B\u002BoKVaFzP5iBqBemBVmqhkNfFT3a1U8kcSoUCdkol6tWuXz1qBBnjIDY5aaTKsFPTO1pbIDjs4ElUcBynHmmTVp/aDCkFaT1NgjKkVBpz338hkZSQy20jsbaO3Hbe8DTHJEOGzhOt6Ov1oc3joo/JoMkp4FyvH5tbWXycmkGJSpdl2XhRjYkg4Gp2wtvTjdPeHpw95SVhEeGlCL7NL\u002BDH4m\u002B8mniLr3Pzph9UI7iHlqnHLSJwxo/uzg6kNzYo83bcGxlCOBwBx3O6z37qCmpoD7T52sxmkUyuIRGPY/kvzWUshlAoRH1WDM8KBwru4XG7cfnSRagk8O79B4wM3kbwQr8\u002B1Pv5L0EnfUqw/zxuXb\u002BK\u002B3dHcePaFfh9PtOS2fPxZ6sDA8Eu494Q01OTS\u002BzJ2MObosvTZtgaIiHFV7WcmTbMR4FZCxoE\u002BAeAV82MWJGzCwAAAABJRU5ErkJggg==",
               "WhenOpened": "2024-12-04T23:09:32.885Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "main.cpp",
+              "DocumentMoniker": "G:\\4) \u041F\u0420\u041E\u0415\u041A\u0422_\u041E\u041F\u0418\\OPITeam_Project\\OPITeamProject\\main.cpp",
+              "RelativeDocumentMoniker": "OPITeamProject\\main.cpp",
+              "ToolTip": "G:\\4) \u041F\u0420\u041E\u0415\u041A\u0422_\u041E\u041F\u0418\\OPITeam_Project\\OPITeamProject\\main.cpp",
+              "RelativeToolTip": "OPITeamProject\\main.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADMAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-26T18:26:03.791Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "parserOUT.cpp",
+              "DocumentMoniker": "G:\\4) \u041F\u0420\u041E\u0415\u041A\u0422_\u041E\u041F\u0418\\OPITeam_Project\\OPITeamProject\\parserOUT.cpp",
+              "RelativeDocumentMoniker": "OPITeamProject\\parserOUT.cpp",
+              "ToolTip": "G:\\4) \u041F\u0420\u041E\u0415\u041A\u0422_\u041E\u041F\u0418\\OPITeam_Project\\OPITeamProject\\parserOUT.cpp",
+              "RelativeToolTip": "OPITeamProject\\parserOUT.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-04T23:10:22Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 17,
               "Title": "menu.h",
-              "DocumentMoniker": "D:\\prog\\\u041E\u041F\u0418\\labs\\OPITeamProject\\OPITeamProject\\menu.h",
+              "DocumentMoniker": "G:\\4) \u041F\u0420\u041E\u0415\u041A\u0422_\u041E\u041F\u0418\\OPITeam_Project\\OPITeamProject\\menu.h",
               "RelativeDocumentMoniker": "OPITeamProject\\menu.h",
-              "ToolTip": "D:\\prog\\\u041E\u041F\u0418\\labs\\OPITeamProject\\OPITeamProject\\menu.h",
+              "ToolTip": "G:\\4) \u041F\u0420\u041E\u0415\u041A\u0422_\u041E\u041F\u0418\\OPITeam_Project\\OPITeamProject\\menu.h",
               "RelativeToolTip": "OPITeamProject\\menu.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
@@ -250,23 +254,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "main.cpp",
-              "DocumentMoniker": "D:\\prog\\\u041E\u041F\u0418\\labs\\OPITeamProject\\OPITeamProject\\main.cpp",
-              "RelativeDocumentMoniker": "OPITeamProject\\main.cpp",
-              "ToolTip": "D:\\prog\\\u041E\u041F\u0418\\labs\\OPITeamProject\\OPITeamProject\\main.cpp",
-              "RelativeToolTip": "OPITeamProject\\main.cpp",
-              "ViewState": "AgIAAEgAAAAAAAAAAAAAABAAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-11-26T18:26:03.791Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "logo.cpp",
-              "DocumentMoniker": "D:\\prog\\\u041E\u041F\u0418\\labs\\OPITeamProject\\OPITeamProject\\logo.cpp",
+              "DocumentMoniker": "G:\\4) \u041F\u0420\u041E\u0415\u041A\u0422_\u041E\u041F\u0418\\OPITeam_Project\\OPITeamProject\\logo.cpp",
               "RelativeDocumentMoniker": "OPITeamProject\\logo.cpp",
-              "ToolTip": "D:\\prog\\\u041E\u041F\u0418\\labs\\OPITeamProject\\OPITeamProject\\logo.cpp",
+              "ToolTip": "G:\\4) \u041F\u0420\u041E\u0415\u041A\u0422_\u041E\u041F\u0418\\OPITeam_Project\\OPITeamProject\\logo.cpp",
               "RelativeToolTip": "OPITeamProject\\logo.cpp",
               "ViewState": "AgIAABcAAAAAAAAAAAAAABgAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
@@ -286,9 +278,9 @@
               "$type": "Document",
               "DocumentIndex": 16,
               "Title": "input.h",
-              "DocumentMoniker": "D:\\prog\\\u041E\u041F\u0418\\labs\\OPITeamProject\\OPITeamProject\\input.h",
+              "DocumentMoniker": "G:\\4) \u041F\u0420\u041E\u0415\u041A\u0422_\u041E\u041F\u0418\\OPITeam_Project\\OPITeamProject\\input.h",
               "RelativeDocumentMoniker": "OPITeamProject\\input.h",
-              "ToolTip": "D:\\prog\\\u041E\u041F\u0418\\labs\\OPITeamProject\\OPITeamProject\\input.h",
+              "ToolTip": "G:\\4) \u041F\u0420\u041E\u0415\u041A\u0422_\u041E\u041F\u0418\\OPITeam_Project\\OPITeamProject\\input.h",
               "RelativeToolTip": "OPITeamProject\\input.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
@@ -298,9 +290,9 @@
               "$type": "Document",
               "DocumentIndex": 15,
               "Title": "parser.h",
-              "DocumentMoniker": "D:\\prog\\\u041E\u041F\u0418\\labs\\OPITeamProject\\OPITeamProject\\parser.h",
+              "DocumentMoniker": "G:\\4) \u041F\u0420\u041E\u0415\u041A\u0422_\u041E\u041F\u0418\\OPITeam_Project\\OPITeamProject\\parser.h",
               "RelativeDocumentMoniker": "OPITeamProject\\parser.h",
-              "ToolTip": "D:\\prog\\\u041E\u041F\u0418\\labs\\OPITeamProject\\OPITeamProject\\parser.h",
+              "ToolTip": "G:\\4) \u041F\u0420\u041E\u0415\u041A\u0422_\u041E\u041F\u0418\\OPITeam_Project\\OPITeamProject\\parser.h",
               "RelativeToolTip": "OPITeamProject\\parser.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
