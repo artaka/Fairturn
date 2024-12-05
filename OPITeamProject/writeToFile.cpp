@@ -8,7 +8,7 @@ using namespace std;
 void writeToFile(vector<pair<string, vector<int>>> rangeDataMembers) {
 	ofstream out;
 	string path;
-	cout << "Enter the file name where the data will be written in the format 'name.csv' (Press d to select the default file 'output.csv'): "; cin >> path;
+	cout << "Enter the name of the file to which the data will be written (default 'output.csv', enter 'd' for the default value): "; cin >> path;
 	if (path == "d") {
 		path = "output.csv";
 	}

@@ -10,7 +10,9 @@ int main() {
     setlocale(LC_CTYPE, "Russian");
     setConsoleTitle("FAIRTURN");
     setlocale(LC_ALL, "Russian");
-
+    cout << "Running an environment check" << endl;
+    Sleep(1500);
+    system("cls");
     system("forpython.bat");
     system("cls");
 
@@ -47,7 +49,7 @@ int main() {
             parserOUT();
             system("cls");
             printSortedData(sortedMembers);
-            cout << endl << "Нажмите на любую клавишу дважды!!";
+            cout << "Press Enter: ";
             getchar();
             getchar();
             system("cls");
