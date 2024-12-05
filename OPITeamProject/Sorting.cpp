@@ -11,12 +11,6 @@ using namespace std;
 void printSortedData(vector<pair<string, vector<int>>>& sortedMembers) {
     setlocale(LC_CTYPE, "Russian");
 
-    // Sort by surname (first element of the pair)
-    sort(sortedMembers.begin(), sortedMembers.end(),
-        [](const pair<string, vector<int>>& a, const pair<string, vector<int>>& b) {
-            return a.first < b.first;  // Sort by surname
-        });
-
     // Line number for displaying
     int lineNumber = 1;
 
