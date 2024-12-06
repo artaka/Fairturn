@@ -1,4 +1,4 @@
-﻿Сборка начата 05.12.2024 1:49:12.
+﻿Сборка начата 06.12.2024 14:19:46.
 Уровень детализации журнала: Normal.     1>Проект "D:\prog\ОПИ\labs\OPITeamProject\OPITeamProject\OPITeamProject.vcxproj" в узле 2 (целевые объекты Build).
      1>PrepareForBuild:
          Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
@@ -6,9 +6,8 @@
          Создание "x64\Debug\OPITeamProject.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
          Обращение к "x64\Debug\OPITeamProject.tlog\unsuccessfulbuild".
        ClCompile:
-         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\bin\HostX64\x64\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"x64\Debug\\" /Fd"x64\Debug\vc143.pdb" /external:W3 /Gd /TP /FC /errorReport:prompt logo.cpp
-         logo.cpp
-     1>D:\prog\ОПИ\labs\OPITeamProject\OPITeamProject\logo.cpp(24,19): warning C4244: аргумент: преобразование "double" в "DWORD", возможна потеря данных
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\bin\HostX64\x64\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"x64\Debug\\" /Fd"x64\Debug\vc143.pdb" /external:W3 /Gd /TP /FC /errorReport:prompt Sorting.cpp
+         Sorting.cpp
        Link:
          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\bin\HostX64\x64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\prog\ОПИ\labs\OPITeamProject\x64\Debug\OPITeamProject.exe" /INCREMENTAL /ILK:"x64\Debug\OPITeamProject.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\prog\ОПИ\labs\OPITeamProject\x64\Debug\OPITeamProject.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\prog\ОПИ\labs\OPITeamProject\x64\Debug\OPITeamProject.lib" /MACHINE:X64 x64\Debug\input.obj
          x64\Debug\inputFromFile.obj
@@ -27,12 +26,7 @@
      1>Сборка проекта "D:\prog\ОПИ\labs\OPITeamProject\OPITeamProject\OPITeamProject.vcxproj" завершена (целевые объекты Build).
 
 Сборка успешно завершена.
-
-       "D:\prog\ОПИ\labs\OPITeamProject\OPITeamProject\OPITeamProject.vcxproj" (целевой объект Build ) (1) ->
-       (Целевой объект ClCompile) -> 
-         D:\prog\ОПИ\labs\OPITeamProject\OPITeamProject\logo.cpp(24,19): warning C4244: аргумент: преобразование "double" в "DWORD", возможна потеря данных
-
-    Предупреждений: 1
+    Предупреждений: 0
     Ошибок: 0
 
-Прошло времени 00:00:00.80
+Прошло времени 00:00:00.90
