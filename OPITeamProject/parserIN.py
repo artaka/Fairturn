@@ -19,7 +19,7 @@ def download_gsheet_to_csv(spreadsheet_id, worksheet_name, csv_file_path, creden
         service = build('sheets', 'v4', credentials=credentials)
 
         # Read data from the spreadsheet
-        range_name = worksheet_name
+        range_name = f"{worksheet_name}!A2:Z"
         result = service.spreadsheets().values().get(spreadsheetId=spreadsheet_id, range=range_name).execute()
         values = result.get('values', [])
 
