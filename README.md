@@ -1,9 +1,12 @@
 <div align="center">
 
-<h1>FAIRTURN</h1>
+#  **FAIRTURN**
   
   ![Badge Language Count](https://img.shields.io/github/languages/count/artaka/Fairturn)
   ![Badge Language](https://img.shields.io/github/languages/top/artaka/Fairturn)
+  ![GitHub stars](https://img.shields.io/github/stars/artaka/Fairturn?style=social)
+
+
   <br>
 
   <a id="link-wiki" href="https://github.com/artaka/Fairturn/blob/master/techDocumentation.docx">📘 Исследуйте документацию</a>
