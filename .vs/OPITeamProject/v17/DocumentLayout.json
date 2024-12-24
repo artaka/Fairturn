@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "G:\\4) \u041F\u0420\u041E\u0415\u041A\u0422_\u041E\u041F\u0418\\OPITeam_Project\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{9DB9DE87-5282-4606-BFD5-1709A03BE779}|OPITeamProject\\OPITeamProject.vcxproj|G:\\4) \u041F\u0420\u041E\u0415\u041A\u0422_\u041E\u041F\u0418\\OPITeam_Project\\OPITeamProject\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9DB9DE87-5282-4606-BFD5-1709A03BE779}|OPITeamProject\\OPITeamProject.vcxproj|solutionrelative:OPITeamProject\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9DB9DE87-5282-4606-BFD5-1709A03BE779}|OPITeamProject\\OPITeamProject.vcxproj|G:\\4) \u041F\u0420\u041E\u0415\u041A\u0422_\u041E\u041F\u0418\\OPITeam_Project\\OPITeamProject\\parserIN.py||{3B902123-F8A7-4915-9F01-361F908088D0}",
       "RelativeMoniker": "D:0:0:{9DB9DE87-5282-4606-BFD5-1709A03BE779}|OPITeamProject\\OPITeamProject.vcxproj|solutionrelative:OPITeamProject\\parserIN.py||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9DB9DE87-5282-4606-BFD5-1709A03BE779}|OPITeamProject\\OPITeamProject.vcxproj|G:\\4) \u041F\u0420\u041E\u0415\u041A\u0422_\u041E\u041F\u0418\\OPITeam_Project\\OPITeamProject\\Sorting.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{9DB9DE87-5282-4606-BFD5-1709A03BE779}|OPITeamProject\\OPITeamProject.vcxproj|solutionrelative:OPITeamProject\\Sorting.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9DB9DE87-5282-4606-BFD5-1709A03BE779}|OPITeamProject\\OPITeamProject.vcxproj|G:\\4) \u041F\u0420\u041E\u0415\u041A\u0422_\u041E\u041F\u0418\\OPITeam_Project\\OPITeamProject\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{9DB9DE87-5282-4606-BFD5-1709A03BE779}|OPITeamProject\\OPITeamProject.vcxproj|solutionrelative:OPITeamProject\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9DB9DE87-5282-4606-BFD5-1709A03BE779}|OPITeamProject\\OPITeamProject.vcxproj|G:\\4) \u041F\u0420\u041E\u0415\u041A\u0422_\u041E\u041F\u0418\\OPITeam_Project\\OPITeamProject\\parserOUT.py||{3B902123-F8A7-4915-9F01-361F908088D0}",
@@ -81,7 +81,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Bookmark",
@@ -141,7 +141,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Sorting.cpp",
               "DocumentMoniker": "G:\\4) \u041F\u0420\u041E\u0415\u041A\u0422_\u041E\u041F\u0418\\OPITeam_Project\\OPITeamProject\\Sorting.cpp",
               "RelativeDocumentMoniker": "OPITeamProject\\Sorting.cpp",
@@ -149,8 +149,7 @@
               "RelativeToolTip": "OPITeamProject\\Sorting.cpp",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-02T22:49:02.186Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-02T22:49:02.186Z"
             },
             {
               "$type": "Document",
@@ -166,7 +165,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "parserIN.py",
               "DocumentMoniker": "G:\\4) \u041F\u0420\u041E\u0415\u041A\u0422_\u041E\u041F\u0418\\OPITeam_Project\\OPITeamProject\\parserIN.py",
               "RelativeDocumentMoniker": "OPITeamProject\\parserIN.py",
@@ -174,8 +173,7 @@
               "RelativeToolTip": "OPITeamProject\\parserIN.py",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAABUAAAAtAAAA",
               "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAMuSURBVDhPrVTPTxNREP627e7SQm0F2mKLUEVICP5IMBqUhB6NJ4/GGGPwoIf\u002BCR7VxBBPhnAxAeVC4kEuJB6Qi0Y8oCGKpoKQUpEWAhX6c7vb3X1Ol5UauzEc/JLJm31v3pdv5u0M/isYY5zpGohEIs8GBgZu8Dxv7tQik8mwbDb7YGpq6lEqlcqa2/twmOs\u002BBgcHEQgEzK9azMzMsHg8fsdut7Pp6enHKysrafPIQA1hBRRkelUQAcLhMEi9jTLxdnZ23pZl2elwOIYWFxe3zTBrwmAwaHpVcFy1OoIg8P39/c1Efo3KJquq\u002BpBEFCpnNiPiL9CFGvtd14rSyclJDA8P22dnZ1tcLlevKIp\u002B45BgqXBpacn0qqDUQGniXN9F9J6/AIeNg1TIyaOjo9/NEAOWhN3d3aZXRV5W8Sq2jY2sBElSwFNuR9x2x5HWtkabrZrogRXKDUEsb\u002BSxmSlg7tsG1LICX4PAX\u002Blpbff7/Q1mmHUNK6/5t2WKKt4uphBbS0NXy2QasvkiV1RtTrfb7TKvWhNWoGkaNHD4ulXGxNwmPibSOH3Ui95wI5rqeahESq8Ln7dwavLpjXe69HlB1/U2y5RXV1eNdb3E48VCDuvpHF1WoJWJhEyjdHWNVNKvJHBbgDQPlOZ74Ls7ZKmwq6vLsCKrw\u002BZu3lCjl1UquA6P0wGPi4eX7EzYhdNB6j5NoiL/AJS1S5YKY7GYsa6tS5BlUkOptTU6EI1IcNp3aQboNAh0eIUdhJybgFrcI9V2Pf9U2B4KQKCIisLbEQFnWz6gx7eMk/4VnGyOobU\u002BDk79SQF5IqNG4YM7loSKohjWfljE8WYn3KIdvkM6OKYBukIEMq2kkj7BiIJRF9Wd0iCEnlimnEwmjVUkuxU5jgzdD3jooUpEppWosT1kTlJE/S127UA89gV1J76Nj48PWRJ2dHSY3h4qg0HUkwz5AmcQajRc6vtIGRHam9aev1y/9/r1xNuRkZFiDeHY2Nj\u002BIPgTN69fThwVQ2Eon4iQHiD3HqzhPNOcvek3b\u002B7HK2Rm6MFAY\u002BoQ08uPWCmRYvl5ncnJBO29JLsajUbDe1HAL6CnYE1YMsFsAAAAAElFTkSuQmCC",
-              "WhenOpened": "2024-12-03T23:35:23.178Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-03T23:35:23.178Z"
             },
             {
               "$type": "Document",
@@ -191,15 +189,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "main.cpp",
               "DocumentMoniker": "G:\\4) \u041F\u0420\u041E\u0415\u041A\u0422_\u041E\u041F\u0418\\OPITeam_Project\\OPITeamProject\\main.cpp",
               "RelativeDocumentMoniker": "OPITeamProject\\main.cpp",
               "ToolTip": "G:\\4) \u041F\u0420\u041E\u0415\u041A\u0422_\u041E\u041F\u0418\\OPITeam_Project\\OPITeamProject\\main.cpp",
               "RelativeToolTip": "OPITeamProject\\main.cpp",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAARAAAAAAAAAA==",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-11-26T18:26:03.791Z"
+              "WhenOpened": "2024-11-26T18:26:03.791Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
