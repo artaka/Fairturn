@@ -1,7 +1,8 @@
-﻿Сборка начата 09.12.2024 22:48:05.
+﻿Сборка начата 09.01.2025 18:47:48.
 Уровень детализации журнала: Normal.     1>Проект "G:\4) ПРОЕКТ_ОПИ\OPITeam_Project\OPITeamProject\OPITeamProject.vcxproj" в узле 2 (целевые объекты Build).
      1>PrepareForBuild:
          Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+         Создание каталога "G:\4) ПРОЕКТ_ОПИ\OPITeam_Project\x64\Debug\".
        InitializeBuildStatus:
          Обращение к "x64\Debug\OPITeamProject.tlog\unsuccessfulbuild".
        VcpkgTripletSelection:
@@ -55,6 +56,7 @@ G:\4) ПРОЕКТ_ОПИ\OPITeam_Project\OPITeamProject\inputFromFile.cpp(41,31
          x64\Debug\ranging.obj
          x64\Debug\Sorting.obj
          x64\Debug\writeToFile.obj
+         LINK : не найден или не выполнена сборка G:\4) ПРОЕКТ_ОПИ\OPITeam_Project\x64\Debug\OPITeamProject.exe при последней инкрементной компоновке; выполняется полная компоновка
          OPITeamProject.vcxproj -> G:\4) ПРОЕКТ_ОПИ\OPITeam_Project\x64\Debug\OPITeamProject.exe
        AppLocalFromInstalled:
          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "G:\vcpkg-master\scripts\buildsystems\msbuild\applocal.ps1" "G:\4) ПРОЕКТ_ОПИ\OPITeam_Project\x64\Debug\OPITeamProject.exe" "G:\vcpkg-master\installed\x64-windows\debug\bin" "x64\Debug\OPITeamProject.tlog\OPITeamProject.write.1u.tlog" "x64\Debug\vcpkg.applocal.log"
@@ -99,4 +101,4 @@ G:\4) ПРОЕКТ_ОПИ\OPITeam_Project\OPITeamProject\inputFromFile.cpp(41,31
     Предупреждений: 16
     Ошибок: 0
 
-Прошло времени 00:00:09.66
+Прошло времени 00:00:06.98
