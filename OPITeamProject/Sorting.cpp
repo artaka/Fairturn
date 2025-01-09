@@ -27,11 +27,22 @@ void printSortedData(vector<pair<string, vector<int>>>& sortedMembers) {
         string attended = (attendedValue == 10) ? "Yes" : "No";
 
         // Display the information with line number
-        cout << lineNumber++ << ". " << surname << " "
-            << labsPassed << " "
-            << labsToDo << " "
-            << attended << " "
-            << totalScore << endl;
+        if (lineNumber<10)
+        {
+            cout << lineNumber++ << ".  " << surname << " "
+                << labsPassed << " "
+                << labsToDo << " "
+                << attended << " "
+                << totalScore << endl;
+        }
+        else
+        {
+            cout << lineNumber++ << ". " << surname << " "
+                << labsPassed << " "
+                << labsToDo << " "
+                << attended << " "
+                << totalScore << endl;
+        }
     }
 	cout << endl << endl;
 }
